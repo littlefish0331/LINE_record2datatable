@@ -1,0 +1,150 @@
+---
+title: "split vector at position"
+author: "Steve, Yu"
+date: "2020/5/12"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+rm(list = ls()); invisible(gc())
+library(knitr)
+library(kableExtra)
+library(dplyr)
+library(data.table)
+opts_chunk$set(echo = TRUE)
+```
+
+# reference 
+
+[R split numeric vector at position - Stack Overflow](https://stackoverflow.com/questions/16357962/r-split-numeric-vector-at-position)
+
+## 發問釋例
+
+```{r}
+splitAt <- function(x, pos){
+  list(x[1:pos-1], x[pos:length(x)])
+}
+
+a <- c(1, 2, 2, 3)
+splitAt(x = a, pos = 4)
+```
+
+## solution01
+
+you'll see that most of the time is spent inside the slowish split.  
+You can certainly avoid it but you'll lose a lot in terms of readability and code compactness.
+
+```{r}
+splitAt1 <- function(x, pos){
+  idx <- cumsum(seq_along(x) %in% pos)
+  res <- split(x, idx) %>% unname()
+  return(res)
+}
+
+a <- c(1, 2, 2, 3)
+splitAt1(x = a, pos = c(2, 4))
+```
+
+## solution02
+
+```{r}
+splitAt2 <- function(x, pos) {
+    out <- list()
+    pos2 <- c(1, pos, length(x)+1)
+    for (i in seq_along(pos2[-1])) {
+        out[[i]] <- x[pos2[i]:(pos2[i+1]-1)]
+    }
+    return(out)
+}
+
+a <- c(1, 2, 2, 3)
+splitAt2(x = a, pos = c(2, 4))
+```
+
+## solution03
+
+將solution02改寫，易讀懂，但是會慢一點。
+
+```{r}
+splitAt3 <- function(x, pos) {
+    out <- list()
+    pos1 <- c(1, pos)
+    pos2 <- c(pos, length(x)+1)
+    for (i in seq_along(pos1)) {
+        out[[i]] <- x[pos1[i]:(pos2[i]-1)]
+    }
+    return(out)
+}
+
+a <- c(1, 2, 2, 3)
+splitAt3(x = a, pos = c(2, 4))
+```
+
+## solution04
+
+solution02的化簡版
+
+```{r}
+splitAt4 <- function(x, pos){
+  pos <- c(1L, pos, length(x) + 1L)
+  Map(function(x, i, j) x[i:j], list(x), head(pos, -1L), tail(pos, -1L) - 1L)
+}
+
+a <- c(1, 2, 2, 3)
+splitAt4(x = a, pos = c(2, 4))
+```
+
+## solution05
+
+solution01的改寫版01，比較易讀懂。
+
+```{r}
+splitAt5 <- function(x, pos) {
+  x_len <- seq_along(x) # 聽說 seq.int() 更快
+  idx <- findInterval(x_len, pos)
+  split(x, idx) %>% unname()
+}
+
+a <- c(1, 2, 2, 3)
+splitAt5(x = a, pos = c(2, 4))
+```
+
+## solution06
+
+solution01的改寫版02，比較易讀。
+
+```{r}
+splitAt6 <- function(x, pos) {
+  # x_len <- seq_along(x)
+  x_len <- seq.int(x)
+  idx <- findInterval(x_len, pos)
+  split(x, idx) %>% unname()
+}
+
+a <- c(1, 2, 2, 3)
+splitAt6(x = a, pos = c(2, 4))
+```
+
+
+```{r}
+library(microbenchmark)
+W <- rnorm(1e6)
+splits <- cumsum(rep(1e5, 9))
+tm <- microbenchmark(splitAt1(x = W, pos = splits),
+                     splitAt2(x = W, pos = splits),
+                     splitAt3(x = W, pos = splits),
+                     splitAt4(x = W, pos = splits),
+                     splitAt5(x = W, pos = splits),
+                     splitAt6(x = W, pos = splits),
+                     times = 10)
+tm
+```
+
+設定 times = 100，結果如下，  
+
+solution speed: 2 = 3 = 4 > 5 = 6 > 7
+
+---
+
+# END
+

@@ -1,0 +1,1299 @@
+2020.07.21 星期二
+09:59 王泰期(NCHC) @YOYO WANG 幫我回答下面的問題
+AI 模型工具平台擬透過MFlow來管理AI模型，包括主要的模型工具與框架皆有支援，請再進一步說明如何管理模型的版本，以及模型所使用的套件或程式庫的版本
+10:14 余佑駿（little fish） 圖片
+10:16 余佑駿（little fish） @YOYO WANG 正國想要在mariadb這個container裡安裝這個driver
+10:16 余佑駿（little fish） https://dev.mysql.com/downloads/connector/net/
+10:26 姜順貿(NCCU,NCHC) 圖片
+10:26 姜順貿(NCCU,NCHC) 中心網頁這樣是正常的麻QAQ
+10:26 余佑駿（little fish） 繼續前往
+10:26 姜順貿(NCCU,NCHC) 我知道 要點好多次~~
+10:29 余佑駿（little fish） 昨晚才這樣的
+10:42 王泰期(NCHC) 可能是憑證過期
+10:53 YoyoWang(王遠智NCHC) 理論上是可以 寫在dockerfile裡面直接開啟
+10:54 YoyoWang(王遠智NCHC) 模型版本用git?
+模型用的套件和程式庫 會寫在檔案裏面
+11:06 余佑駿（little fish） 正國不會用 linux 你可以幫忙開啟一下嗎?
+還是我把你LINE給他你們比較好溝通
+11:07 余佑駿（little fish） 因為我不知道你 docker file 在哪裡XD
+11:09 YoyoWang(王遠智NCHC) 我直接拿官方的image
+11:13 YoyoWang(王遠智NCHC) 我要研究一下
+11:14 余佑駿（little fish） 好~ 我會跟正國講一下
+btw, 我剛剛有看 history 了
+那樣直接拿官方的 mariaDB ，是那時候指定的 版本嗎?順便幫忙確認一下><
+11:15 王泰期(NCHC) 我的理解是沒錯新建一個模型都是一個新的資料夾和yaml檔吧
+12:13 YoyoWang(王遠智NCHC) 我晚點確認一下
+14:41 余佑駿（little fish） 圖片
+14:41 YoyoWang(王遠智NCHC) 直接裝了？
+14:42 余佑駿（little fish） 圖片
+14:42 YoyoWang(王遠智NCHC) ok
+16:13 YoyoWang(王遠智NCHC) 圖片
+16:14 YoyoWang(王遠智NCHC) 圖片
+16:14 YoyoWang(王遠智NCHC) 圖片
+16:15 YoyoWang(王遠智NCHC) 每次訓練都存成一個對應的資料夾
+16:15 YoyoWang(王遠智NCHC) 圖片
+16:16 YoyoWang(王遠智NCHC) 模型版本應該是不同檔案
+2020.07.22 星期三
+10:26 王泰期(NCHC) @貿 你去年玉山的資料有留下來嗎
+10:26 姜順貿(NCCU,NCHC) 有阿
+10:27 王泰期(NCHC) 你整理一下給Jane，跟她說明基本的資訊
+10:27 王泰期(NCHC) 她想拿來當完整的DAS案例
+10:27 姜順貿(NCCU,NCHC) @@ 那個都是別人轉過的資料耶
+10:27 王泰期(NCHC) 沒關係
+10:28 王泰期(NCHC) 真的要用我們會直接跟玉山談
+10:32 姜順貿(NCCU,NCHC) 給她了~~
+10:57 王泰期(NCHC) 好
+15:25 余佑駿（little fish） 下一位實習生的履歷轉寄到各位的信箱啦~~
+15:30 YoyoWang(王遠智NCHC) 貼圖
+21:22 余佑駿（little fish） 那這樣是不是要約時間
+跟她約下周，一樣晚上6-7選一天這樣嗎~
+2020.07.23 星期四
+11:06 王泰期(NCHC) 可以啊，我回去再看看我的時間
+11:06 王泰期(NCHC) 順便問一下俊鈺
+11:06 余佑駿（little fish） 貼圖
+17:04 余佑駿（little fish） 學長這你要問還是我問XD~ 
+17:04 王泰期(NCHC) 我問
+17:05 余佑駿（little fish） 好~~
+2020.07.27 星期一
+08:15 余佑駿（little fish） 今早發現，子彝換辦公室了lol~~
+btw, 後來俊鈺有回復時間嗎?? 
+09:11 王泰期(NCHC) 對啊，他升研究員，有自己辦公室
+09:12 王泰期(NCHC) 我等下打電話問俊鈺
+09:12 王泰期(NCHC) 剛打沒接
+09:13 余佑駿（little fish） 謝啦~~
+10:23 王泰期(NCHC) 台中瑞艾科技客戶拜訪(Yoyo)
+10:23 王泰期(NCHC) @YOYO WANG 這個談了什麼
+10:24 YoyoWang(王遠智NCHC) 介紹國網 介紹twcc
+10:25 王泰期(NCHC) ＯＫ她們是做什麼的
+10:27 YoyoWang(王遠智NCHC) 蠻多app
+10:27 YoyoWang(王遠智NCHC) 虛擬機器人
+10:27 YoyoWang(王遠智NCHC) 然後最近有ＡＩ
+10:31 王泰期(NCHC) 好
+10:35 王泰期(NCHC) @余佑駿（little fish） 俊鈺說目前都可以，我目前週二週五不行
+10:36 余佑駿（little fish） 我是約下週對吧
+10:38 王泰期(NCHC) 我上面說的是這週的時間
+10:39 王泰期(NCHC) 如果他要下週我要再看我的時間
+10:41 余佑駿（little fish） 好
+10:43 余佑駿（little fish） 我等等拍完問
+13:25 余佑駿（little fish） 這週四七點，學妹說可以
+13:26 余佑駿（little fish） 學長再幫我開個面試連結，我再正式寄個訊息給大家
+16:02 余佑駿（little fish） - 面試: 07/30 1900
+- 高榮: 07/28 下午2:00~4:00
+16:37 姜順貿(NCCU,NCHC) 學長  你覺得漢翔新聞，點進去內文的時間，要不要放dt_publish(原文章發布的時間)，而不是sys_time(爬取程式抓到新聞的時間)
+
+這樣 抓舊新聞進資料庫時，他們點進去也可以發現是舊資料，但現在這樣顯示，看起來好像是新文章~~會造成這樣的誤解
+19:41 王泰期(NCHC) 喔我有發現阿，不過妳也很難判斷這個條件，我們先不要處理，最後交付的時候讓他們決定就好
+2020.07.28 星期二
+09:59 余佑駿（little fish） 學長，我覺得要先和高榮先暫緩欸
+15:40 王泰期(NCHC) https://godleon.github.io/blog/Kubernetes/k8s-Scheduling-Manage-Compute-Resource-for-Container/
+15:40 王泰期(NCHC) 剛看到的K8S CPU、Memory和POD
+15:40 王泰期(NCHC) 我常常搞不清楚
+15:41 王泰期(NCHC) https://medium.com/@C.W.Hu/kubernetes-basic-concept-tutorial-e033e3504ec0
+15:42 余佑駿（little fish） 好硬的連結，學長你幫我問一下
+15:42 余佑駿（little fish） 正國還在嗎?
+15:42 王泰期(NCHC) 恩他在我旁邊
+15:42 余佑駿（little fish） 幫我問一下他要請 yoyo 裝的DB跟之前依樣是裝在 docker 上對吧?
+15:43 王泰期(NCHC) 是的，跟之前機制一樣就好
+15:44 余佑駿（little fish） 貼圖
+15:44 王泰期(NCHC) 要放在新機器喔
+15:45 王泰期(NCHC) 圖片
+15:45 王泰期(NCHC) 這台喔
+15:46 YoyoWang(王遠智NCHC) docker的最小單位是container
+15:46 YoyoWang(王遠智NCHC) k8s最小單位是pod
+15:46 YoyoWang(王遠智NCHC) 每個pod有多個container
+15:47 王泰期(NCHC) 那k8s和docker的關係呢
+15:47 余佑駿（little fish） 有~我有跟 yoyo 說了
+15:47 余佑駿（little fish） 有請我最近很愛的 IBM 小鮮肉
+https://www.youtube.com/watch?v=2vMEQ5zs1ko
+15:48 王泰期(NCHC) 哈哈哈搞不好DAS常常死掉就是這個小鮮肉搞的
+15:49 王泰期(NCHC) https://hackmd.io/M9uh1NJfTYKd4VUgZzQ0aQ?both
+15:49 王泰期(NCHC) JANE整理的，CP4D真的是資源怪獸
+15:50 王泰期(NCHC) 應該是說他們把資源切成了很小的單位來執行POD，反而是最有效率的作法
+15:50 YoyoWang(王遠智NCHC) 這樣才不會互相影響
+15:51 YoyoWang(王遠智NCHC) 每個服務可以分開管控
+16:00 王泰期(NCHC) @YOYO WANG 如果YP把整包K8S給你，你目前的技術有辦法重新build嗎
+16:00 YoyoWang(王遠智NCHC) 有點困難
+16:00 YoyoWang(王遠智NCHC) 我k8s不太熟XD
+16:00 YoyoWang(王遠智NCHC) 需要研究一下
+16:01 王泰期(NCHC) 哈哈好吧，我覺得這次有機會看一個K8S的全貌
+16:01 王泰期(NCHC) 應該是未來主流的微型服務架構
+17:03 王泰期(NCHC) Grafana死掉了
+http://140.110.93.45:3000/
+17:09 YoyoWang(王遠智NCHC) 開好了
+17:09 王泰期(NCHC) OK，這個我有在用，需要一值開著
+17:14 YoyoWang(王遠智NCHC) 我沒動這台0v0
+17:15 王泰期(NCHC) 恩我知道，我只是想說是不是用一用常常會自己停掉
+17:15 王泰期(NCHC) 是不是要有小型的監控和自動重啟機制
+17:21 余佑駿（little fish） 會不會是有休眠的關係，他有沒有log紀錄為什麼停掉啊
+17:22 YoyoWang(王遠智NCHC) 沒看到什麼特別的東西
+2020.07.29 星期三
+09:05 王泰期(NCHC) @YOYO WANG 我要怎麼監看docker的log
+09:13 YoyoWang(王遠智NCHC) docker logs grafana
+09:14 王泰期(NCHC) 我好像沒辦法值接看
+09:14 王泰期(NCHC) 應該要從你的account才可以
+09:15 王泰期(NCHC) 圖片
+09:16 YoyoWang(王遠智NCHC)已收回訊息
+09:16 YoyoWang(王遠智NCHC) 開管理者權限試試看
+09:18 余佑駿（little fish） 我幫你開
+09:19 余佑駿（little fish） 你燈出在看看
+09:22 余佑駿（little fish） https://docs.microsoft.com/zh-tw/visualstudio/containers/troubleshooting-docker-errors?view=vs-2019
+
+它有一個docker group，我是用這個方法
+給參考~~
+09:35 王泰期(NCHC) 可以了
+09:35 王泰期(NCHC) 蠻厲害的
+09:36 王泰期(NCHC) 建議你們是看看
+09:36 余佑駿（little fish） grafana嗎?
+09:36 王泰期(NCHC) 我create了一個hourly su
+09:36 王泰期(NCHC) 對
+09:36 王泰期(NCHC) 先用admin幫自己加帳號
+09:36 王泰期(NCHC) 我來看看怎麼把log輸出
+09:37 王泰期(NCHC) 就基本上可以掌握，CP4D怎麼做管裡的了
+09:37 王泰期(NCHC) 不然每次JIMMY說的東西我都聽不懂
+09:37 余佑駿（little fish） 是說到現在還沒修好XDD~ 
+看起來問題不簡單Orz
+09:37 王泰期(NCHC) 對啊
+09:38 王泰期(NCHC) 這包就是太大包
+09:38 王泰期(NCHC) 使用者又沒有控管
+09:38 余佑駿（little fish） 對不起我要問個之前好像問過的問題，去哪註冊XDD
+09:38 余佑駿（little fish） 圖片
+09:38 王泰期(NCHC) 先admin
+09:38 王泰期(NCHC) 不用帳密
+09:38 王泰期(NCHC) 說錯要帳號admin
+09:42 余佑駿（little fish） cool~ 成功了~之後再玩XD
+13:27 王泰期(NCHC) @貿 兩點到振凱後面的會議室規劃市集的資料清理
+13:28 王泰期(NCHC) @YOYO WANG 你幾點要離開
+15:23 王泰期(NCHC) 現在203喔
+15:23 余佑駿（little fish） 好~ 我們過去~~~
+15:38 王泰期(NCHC) http://140.110.93.45:3000/d/GBvM5h7Gk/hourly-su?orgId=1&from=1595403490026&to=1596008290026&refresh=1d
+17:16 余佑駿（little fish） 我稍微整理一下剛剛開會的，幫忙補充
+
+*grafana介紹*
+反正就是很厲害的監控程式恩恩
+然後接口是Database
+所以要如果是 log 資料，就是想辦法要拋到 Database 上面
+
+*check item*
+- 練習 grafana: 大家
+- docker logs to json: yoyo
+- API server build: 大家幫忙? 
+- 跟gimmy說明天面試，信幫我轉一下: 學長
+- 催正國XDDD: 學長
+17:16 余佑駿（little fish） (剛剛是說 plumber 好像順貿測過了，所以剩下 flask 這樣。我之後應該也會自己走一次)
+
+17:18 王泰期(NCHC) 正國那邊我跟他說了
+17:18 王泰期(NCHC) API Server就是等正國那邊處理好我們一啟在那台測試，所以我們要先有各自的機制。plumber and flask
+17:19 余佑駿（little fish） 好~~
+17:19 姜順貿(NCCU,NCHC) @余佑駿（little fish）  我沒有測過喔~~~
+17:20 余佑駿（little fish） 喔喔~好~ 那我之後也會測
+17:20 王泰期(NCHC) https://zoomtw.zoom.us/j/4548187289?pwd=ckxkOTE2SXIycUMxV0pMVSs0dnNYUT09
+
+明天的會議連結
+17:21 王泰期(NCHC) plumber順貿那邊之前的架構沒問題了阿
+17:21 王泰期(NCHC) 只是log的監控機制要上來
+17:21 余佑駿（little fish） 這個是面試的對吧? 那我傳給對方囉
+17:21 王泰期(NCHC) 對
+17:50 余佑駿（little fish） @貿 DAS的Rstudio修好了你可以上去測試~
+18:17 姜順貿(NCCU,NCHC) No😁
+18:59 王泰期(NCHC) 圖片
+18:59 王泰期(NCHC) @貿 Query要在上面選擇
+18:59 王泰期(NCHC) 你值接用到default了
+19:13 姜順貿(NCCU,NCHC) 我有自己打query啊，結果怎樣都不成功(sad)(sad)
+19:13 王泰期(NCHC) BO好像不能在grafana上用它的點選式的
+19:15 王泰期(NCHC) 圖片
+19:15 王泰期(NCHC) 先試試看產表格
+19:15 王泰期(NCHC) 這個問題應該比較小
+2020.07.30 星期四
+09:12 王泰期(NCHC) @余佑駿（little fish） 給我一個PMML檔
+09:12 王泰期(NCHC) 3.0有新功能，值接上傳PMML
+09:12 余佑駿（little fish） iris_kmeans.zip
+09:12 余佑駿（little fish） iris_logis.zip
+09:14 王泰期(NCHC) 圖片
+09:14 余佑駿（little fish） GOOD
+09:14 余佑駿（little fish） 是4.4欸
+09:15 余佑駿（little fish） 所以現在上面DAS是 3.0.1 版嗎
+09:15 余佑駿（little fish） 要怎麼看 DAS 的版本(應該問這個XD
+09:15 王泰期(NCHC) 應該是吧。目前是用Thomas新建的
+09:15 王泰期(NCHC) DAS沒有版本
+09:15 王泰期(NCHC) 是後面的CP4D 3.0
+09:18 余佑駿（little fish） 好~~ 然後今天有教育訓練所以我可能不在位子上~
+高榮那邊我想等明天開完會確認好之後再約他們這樣~(一方面我想說找時間都再走一次
+
+09:19 王泰期(NCHC) 圖片
+09:19 王泰期(NCHC) 結果不support
+09:20 王泰期(NCHC) 你程式給我，我另外建看看
+09:31 余佑駿（little fish） 啊啊啊欸，我們開始了我沒帶電腦
+09:32 余佑駿（little fish） 都欸我中間下課給你
+09:32 王泰期(NCHC) 沒關係
+10:07 王泰期(NCHC) 圖片
+10:07 王泰期(NCHC) 新的autoai介面看起來蠻厲害
+16:48 王泰期(NCHC) @貿 幫我訂明天中午便當10個，總預算1000，要開收據
+16:51 姜順貿(NCCU,NCHC) 好，沒問題，是送到哪裡？
+16:52 王泰期(NCHC) 中心阿
+16:52 王泰期(NCHC) 我們在中心開會
+16:52 姜順貿(NCCU,NCHC) Das那個會嗎
+16:52 王泰期(NCHC) 對的
+16:52 姜順貿(NCCU,NCHC) 👌
+16:56 余佑駿（little fish） to_學長_pmml.zip
+16:56 余佑駿（little fish） 用這個~我整理一個最簡單版本的，四行這樣
+16:58 余佑駿（little fish） 今天遇到 thomas 
+他說我還是用2.5版先去做教育訓練，
+所以我就今晚找時間再測一遍，然後明天約時間這樣，和學長說一聲~
+17:07 王泰期(NCHC) 可以
+17:17 余佑駿（little fish） 今天中心安排一整天的教育訓練不錯
+我回來查才發現是頗大咖的講師 - 李河泉
+下次如果中心又有請，覺得大家可以去XD
+17:28 姜順貿(NCCU,NCHC) 佑駿的向上管理(hee)(hee)(hee)
+17:29 余佑駿（little fish） 什麼鬼XDD~ 我覺得他今天講得比較像是職場大家都要會的事情
+17:39 姜順貿(NCCU,NCHC) 便當已訂好
+17:41 姜順貿(NCCU,NCHC)已收回訊息
+17:49 余佑駿（little fish） 雖然昨天有講~ 但是還是提醒大家 1900 有面試唷~(快去吃飯XDD
+18:58 余佑駿（little fish） here~ 
+19:41 王泰期(NCHC) @余佑駿（little fish） 先幫我跟他們兩個要信箱和電話，幫他們申請ＶＰＮ
+19:41 余佑駿（little fish） 好~我拉一個群組?
+19:41 余佑駿（little fish） 還是先個別要?
+19:42 王泰期(NCHC) 哈哈可以啊，你們跟他們拉就好
+19:43 余佑駿（little fish） OK
+19:44 王泰期(NCHC) 也可以拉我一起好了，有些資訊可以跟他們分享
+19:44 王泰期(NCHC) 他們有問題我有空也可以在上面回答
+19:48 余佑駿（little fish） OKOK~邀請了
+2020.07.31 星期五
+12:02 姜順貿(NCCU,NCHC) 學長，850便當費
+15:51 余佑駿（little fish） 140.110.93.45:8787
+140.110.93.45:8888
+
+dockeruser/dockeruserpass
+
+@貿 幫你開好了，要VPN
+
+16:49 余佑駿（little fish） @貿 
+先算長度再看 order, sort
+你剛剛問我的第一個問題
+
+然後第二個問題，我覺得你要寫的話，就是用 index 去想可能比較快
+
+然後我 server:8787 的 R package 可以成功裝上去
+16:50 余佑駿（little fish） 你如果不行你再跟我說
+16:52 余佑駿（little fish） 你裝到 目前目錄下的 install_Rpkgs/
+然後 library 這個目錄呼叫就好，如果覺得麻煩我再幫你改設定
+17:22 余佑駿（little fish） @YOYO WANG 順貿說我開的rstudio不直覺(沒辦法拖拉檔案上傳，他說你之前開的可以XDDD~
+你再幫他開好了XDD~ 有成功再教我一下~鳩咪
+18:14 姜順貿(NCCU,NCHC) 佑駿，我覺得當初應該是用FTP上傳的(hahaha)(hahaha)(hahaha)有空在幫我開你剛剛用好的版本，就幫大忙了
+18:14 姜順貿(NCCU,NCHC) (please!)(please!)
+18:25 余佑駿（little fish） 不要，我心累= =，pass
+
+2020.08.01 星期六
+06:22 余佑駿（little fish） TWCC今早壞了~
+07:44 姜順貿(NCCU,NCHC) 貼圖
+07:46 姜順貿(NCCU,NCHC) Sql還能用(hahaha)
+10:30 王泰期(NCHC) 怎麼壞法
+10:30 王泰期(NCHC) 網頁嗎
+10:31 余佑駿（little fish） 點VM連不進去
+10:31 余佑駿（little fish） 網頁上Vm進去之後下面的畫面也不見了
+10:31 余佑駿（little fish） 然後 連線vm 也進不去
+10:31 王泰期(NCHC) 喔喔
+10:32 余佑駿（little fish） 不過順貿說還可以用，那應該後來有修好
+10:32 王泰期(NCHC) 嗯嗯
+10:46 余佑駿（little fish） 圖片
+10:47 余佑駿（little fish） 像這樣，下面的地方不見了
+10:47 王泰期(NCHC) 喔喔
+10:47 王泰期(NCHC) 都是sql還有通這樣
+10:48 余佑駿（little fish） Sql我沒測，但順貿說有通~
+11:18 王泰期(NCHC) 是不是連線機制的差異
+11:19 王泰期(NCHC) VM透過ssh連線，sql connection 不一樣
+11:28 余佑駿（little fish） 喔喔也可能，或是22port壞了但是3306沒壞之類的
+19:39 YoyoWang(王遠智NCHC) 圖片
+19:39 YoyoWang(王遠智NCHC) 還沒修好0v0
+20:10 余佑駿（little fish） 慘😱😱
+20:11 王泰期(NCHC) 假日處理比較慢嗎
+20:36 王泰期(NCHC) 資料科學家,AI課程大綱.docx
+20:36 王泰期(NCHC) 做教育訓練的廠商
+2020.08.03 星期一
+06:19 余佑駿（little fish） 打開課程發現滿滿的 python ，我是不是也該去上課了XDD
+08:52 姜順貿(NCCU,NCHC)已收回訊息
+09:33 YoyoWang(王遠智NCHC) 目前grafana還不知道怎麼拿到log位置，我在ubuntu上測完可以了
+09:33 YoyoWang(王遠智NCHC) 看是不是要換個位置啟動grafana
+10:46 王泰期(NCHC) 所以我們server上的grafana你無法取得，要換到另外一台主機嗎
+10:46 YoyoWang(王遠智NCHC) windows上的docker在VM裡面
+10:47 YoyoWang(王遠智NCHC) 目前不清楚怎麼抓檔案出來
+10:50 王泰期(NCHC) 喔喔
+10:51 王泰期(NCHC) 好啊，看你覺得方便
+10:51 王泰期(NCHC) @貿 @余佑駿（little fish） 等下搭我的車嗎
+10:51 余佑駿（little fish） 好啊~~~
+10:51 余佑駿（little fish） YA!!!幾點哪裡集合
+10:51 王泰期(NCHC) 我可能晚一點，JANE還要找我談事情
+10:51 王泰期(NCHC) 可能談完一起去
+10:57 余佑駿（little fish） server 有沒有人再爬蟲，忘記關 chrome driver 囉
+10:58 姜順貿(NCCU,NCHC) 好啊  搭順風車~~謝謝學長
+10:58 姜順貿(NCCU,NCHC) 有麻~~我沒有新增 爬蟲了呀
+10:59 余佑駿（little fish） 圖片
+10:59 余佑駿（little fish） 沒的話，那我等等砍一砍XD
+10:59 余佑駿（little fish） 1110個拉下去很多 chrome driverXD
+11:00 姜順貿(NCCU,NCHC) 好呀
+11:20 王泰期(NCHC) 11:30一樓
+11:20 余佑駿（little fish） OKOK
+11:27 姜順貿(NCCU,NCHC) 好
+14:12 YoyoWang(王遠智NCHC) grafana
+203.145.220.241:3000
+14:28 余佑駿（little fish） 喔喔~~ 這是新開的VM嗎?~
+14:28 YoyoWang(王遠智NCHC) 之前開的
+14:29 余佑駿（little fish） 居然沒壞掉欸~ 
+btw, 是只能用 email 申請嗎?
+14:29 余佑駿（little fish） 圖片
+14:29 YoyoWang(王遠智NCHC) 新增成員
+14:29 YoyoWang(王遠智NCHC) 壞掉的VM是__月後開啟的
+14:30 YoyoWang(王遠智NCHC) 空格自填
+14:30 余佑駿（little fish） XDDD
+14:30 YoyoWang(王遠智NCHC) 我這台開很久了
+14:30 YoyoWang(王遠智NCHC) 聽說是VM被刪了
+14:31 YoyoWang(王遠智NCHC) 圖片
+14:31 YoyoWang(王遠智NCHC) New user
+14:32 余佑駿（little fish） 原來在這XDD~ 大感謝
+14:32 YoyoWang(王遠智NCHC) email不要用
+14:32 YoyoWang(王遠智NCHC) 我沒設定SMTP
+14:32 余佑駿（little fish） OK
+14:34 姜順貿(NCCU,NCHC) 遠智，r &python
+14:36 YoyoWang(王遠智NCHC) 我開了8787
+14:37 YoyoWang(王遠智NCHC) rstudio/NCHC_RSTUDIO
+16:07 姜順貿(NCCU,NCHC) 有完整的網址 可以給一下嗎
+16:07 YoyoWang(王遠智NCHC) 140.110.93.45
+16:08 姜順貿(NCCU,NCHC) 完整的~~
+16:09 姜順貿(NCCU,NCHC) http://140.110.93.45:8787/rstudio/NCHC_RSTUDIO
+16:09 姜順貿(NCCU,NCHC) 連不了
+16:09 YoyoWang(王遠智NCHC) 140.110.93.45:8787
+16:09 姜順貿(NCCU,NCHC) 喔喔 是帳號密碼阿XD  原來
+17:24 余佑駿（little fish） 140.110.93.45:8787
+- dockeruser/dockeruserpass
+- 連動資料夾: E:\container_folder\rpython
+- package install: terminal > sudo R
+
+---
+17:28 姜順貿(NCCU,NCHC) 感謝
+19:04 王泰期(NCHC) https://man.twcc.ai/@BiLycGM4T-SvTSi1v32I2w/Hkg2TMAHH?type=view
+19:04 王泰期(NCHC) TWCC API
+19:05 王泰期(NCHC) 可以在後台開起各種TWCC的服務
+19:16 王泰期(NCHC) @余佑駿（little fish） https://man.twcc.ai/login 你可以登入嗎
+19:55 余佑駿（little fish） 啊啊啊我回家囉
+19:56 余佑駿（little fish） 等我一下
+19:58 王泰期(NCHC) 沒關係不急
+19:58 王泰期(NCHC) 明天再回我也可以
+19:58 王泰期(NCHC) 我只是想說回不會他這個server也死掉了
+19:58 余佑駿（little fish） 可以，我還在裡面，我看你的帳號也還在
+19:58 余佑駿（little fish） 筆記也還在
+20:00 王泰期(NCHC) 那可能只是cookie的問題
+21:12 余佑駿（little fish） TWCC這包有夠慘，我一直希望不會有FAE的案子影響
+結果還是來了
+
+21:12 余佑駿（little fish） 圖片
+21:14 王泰期(NCHC) 問問管理的人吧，應該是死光了
+21:15 姜順貿(NCCU,NCHC) 貼圖
+21:15 姜順貿(NCCU,NCHC) 不會到時104也....他們記者會好像結束了
+21:15 姜順貿(NCCU,NCHC) Safe~~
+21:16 余佑駿（little fish） 我先回復FAE群組了~ 我想奕良那邊的窗口可能有統一的口徑~
+
+只能說備分的重要性惹
+
+21:16 王泰期(NCHC) 104的是什麼
+21:19 王泰期(NCHC) 志泓說如果資料是放在mount的硬碟是安全的
+21:20 余佑駿（little fish） 但是那個客戶沒有 mount 
+所以真的慘~我開始在想要怎麼道歉了
+(希望有範本XD)
+21:41 王泰期(NCHC) 慘，難怪說系統碟和資料碟要分開
+21:48 姜順貿(NCCU,NCHC) 104不知道有沒有受到波及，不然問題也很大....
+2020.08.04 星期二
+08:57 姜順貿(NCCU,NCHC) 圖片
+08:57 姜順貿(NCCU,NCHC) 這個是什麼XD
+09:24 余佑駿（little fish） 中毒?
+09:31 姜順貿(NCCU,NCHC) 他是這樣寫沒錯
+09:36 余佑駿（little fish） 圖片
+09:36 余佑駿（little fish） 我反映他們的服務異常通知寄送到舊的信箱
+TWCC團隊回覆我這個，妳們知道這要去哪裡改嗎?
+09:37 王泰期(NCHC) 在server上嗎
+09:37 姜順貿(NCCU,NCHC) 是 Server上
+09:37 余佑駿（little fish） *你， iService 上我已經改了
+09:37 余佑駿（little fish） 圖片
+09:39 王泰期(NCHC) 你看看twcc的使用者設定
+09:40 姜順貿(NCCU,NCHC) 我在twcc上 也只找到 跟佑駿一樣的 畫面
+09:41 王泰期(NCHC) 好我等下到大直看一下
+09:41 王泰期(NCHC) Server病毒的問題幫我排除一下
+09:41 王泰期(NCHC) 東西應該都可以刪
+09:42 YoyoWang(王遠智NCHC) 改了還是到舊信箱嗎?
+09:48 姜順貿(NCCU,NCHC) oh my god~~~萬幸 幫忙負責的人 經驗老道
+
+A
+日前創建的其中一個虛擬運算主機(ID: 1084594)，不知道原因為何，突然無法連線，但另外一個可以正常運作，在煩請您幫我們詢問原因，謝謝
+
+B
+抱歉!   有一部分的虛擬運算主機出問題, 等一等技術團隊處理,
+
+之前剛聯繫時我有請你建好的VM要拍快照,
+
+不知你是否有拍快照, 如有, 可嘗試用快照重建故障的VM,
+
+之後故障舊的VM可操作時再刪掉,
+
+A
+已利用先前的快照建立VM，再麻煩技術團隊以及isupport協助修復故障的VM
+~~~
+
+有先請對方備份快照~~ 
+
+09:58 余佑駿（little fish） 我剛剛去問clare ，柏穎叫我直接去找碧桃XDD
+所以我先去找看看碧桃啦~XD
+09:59 余佑駿（little fish） 你這是其他同仁回復抗疫專案的嗎?~
+10:02 姜順貿(NCCU,NCHC) 是幫我負責其中一個抗疫專案的高手的回覆
+11:22 姜順貿(NCCU,NCHC) 你們連的了server嗎？
+11:26 姜順貿(NCCU,NCHC) 好像可以了，我今天網路怪怪的
+17:34 余佑駿（little fish） @YOYO WANG 
+你明天還是幫順貿開一個它需要的 container 好了
+我這邊幫忙開了，然後我今天順手登出server，所以好像 docker desktop 被關閉，後來 docker start <container> 之後，他說連動的資料夾失效了~但我不知道問題出在哪XD~(交給你專業好了XD)
+
+阿我自己進度落後有點一大段，你如果可以的話幫他開一個~
+
+//
+他的需求是 r, rstudio, python
+我用 datascienceschool/rpython/ 這個 image
+需要的 port 為 8787, 3266
+連動資料夾如下面指令
+
+17:34 已收回訊息
+17:36 余佑駿（little fish） 要請你幫忙的部分
+- 重新啟動 docker desktop (固定在你那邊登入好了XD)
+- docker start grfana
+- docker stop rpython
+- docker rm rpython
+- 跑下面指令，如果沒有錯的話。
+
+```
+docker run --name=rpython -dit -v e:\container_folder\rpython:/home/dockeruser/rpython -p 8787:8787 -p 3266:3266 datascienceschool/rpython
+```
+
+感謝!!~
+
+
+17:45 余佑駿（little fish） docker start grafana (<-這個是因為重啟docker desktop會被停掉，恩恩)
+17:55 王泰期(NCHC) 這各一開始要用什麼帳密登入
+17:56 余佑駿（little fish） admin/admin
+17:56 王泰期(NCHC) 不行耶
+17:56 王泰期(NCHC) 那幫我加一個好了
+17:56 王泰期(NCHC) taichi/Nchc@2020
+17:59 YoyoWang(王遠智NCHC) admin/Nchc@GRAFANA
+17:59 YoyoWang(王遠智NCHC) 我改了0v0
+17:59 王泰期(NCHC) 哈好
+18:00 王泰期(NCHC) 那我自己加入就好
+18:00 余佑駿（little fish） 好~
+2020.08.05 星期三
+08:45 姜順貿(NCCU,NCHC) server 自動重開了嗎?  怎麼我跑的網頁 全部消失了QAQ
+08:46 姜順貿(NCCU,NCHC) 看起來有重開~~ 使用的記憶體 降低蠻多的 
+08:50 余佑駿（little fish） 我沒動，去看看事件紀錄，看有沒有更新之類的?
+08:50 余佑駿（little fish） 我記得昨天我看我們記憶體20%上下，平常多高阿XD~沒注意
+09:01 姜順貿(NCCU,NCHC) 剛剛看7%  所以有降阿~~
+09:07 姜順貿(NCCU,NCHC)已收回訊息
+09:08 姜順貿(NCCU,NCHC) 學長，有沒有哪一天是有公事，不方便請假的呢?  想要報名健檢XD
+
+9/16(三)30人、17(四)30人、18(五)40人、21(一)30人、22(二)30人、23(三)30人
+
+0916~0923
+09:10 王泰期(NCHC) 都可以啊
+09:16 姜順貿(NCCU,NCHC) 好~~ 那我報名 0917
+09:34 余佑駿（little fish） server 不能同時都入嗎?
+09:34 姜順貿(NCCU,NCHC) 是~~
+09:34 余佑駿（little fish） 恩... 他是不是有更新?
+09:34 姜順貿(NCCU,NCHC) 貌似變這樣了 
+09:34 姜順貿(NCCU,NCHC) 當然 不然不會重開
+09:35 余佑駿（little fish） @王泰期 早上跟高榮約時間，他們決定明天下午
+09:35 姜順貿(NCCU,NCHC) fish等我一下 我要儲存@@
+09:35 余佑駿（little fish） 趁機器還好的時候這樣
+09:35 余佑駿（little fish） 我這邊再用 FAE 的東西
+@YOYO WANG @貿 你和yoyo協調一下
+09:36 余佑駿（little fish） 我可能晚點中午或吃完飯再去修可以嗎?
+09:40 余佑駿（little fish） 或是比較快是 mao 修，因為我記得我有在E曹說明怎麼設定
+09:41 姜順貿(NCCU,NCHC) 我什麼都沒看到，要的話，請給詳細的檔案位置
+09:42 余佑駿（little fish） 圖片
+09:43 余佑駿（little fish） 我這邊沒這麼快~ 順便明天還有高榮
+09:43 余佑駿（little fish） 研究一下 README，裡面有解決網址
+09:45 姜順貿(NCCU,NCHC) 給你先用
+10:02 姜順貿(NCCU,NCHC) XD  佑駿 還是靠你好嘞 我把老闆這邊炸了~~ 都還沒把螢幕接上 少了轉接頭阿@@
+10:26 余佑駿（little fish） 好唷~我找時間去用
+12:19 王泰期(NCHC) https://www.footmark.info/programming-language/nodejs/nodejs-restful-webapi-mysql/
+12:19 王泰期(NCHC) 這個之後要做看看
+15:09 姜順貿(NCCU,NCHC) @YOYO WANG  這裡~~~
+15:25 YoyoWang(王遠智NCHC) 開好了
+16:46 余佑駿（little fish） 學長~ 我是不是太早跟高榮約了
+(我想說一個禮拜惹，我偶爾早上進去用是順的)
+所以想說應該沒問題
+
+現在這樣的話，要怎麼做阿
+
+16:47 王泰期(NCHC) 哈哈不是你的錯
+16:47 王泰期(NCHC) 應該是最近的問題跟上周一樣
+16:47 王泰期(NCHC) 還是沒有徹底解決
+16:48 王泰期(NCHC) 有一個叫做metastoredb的東西，一直重啟
+16:48 余佑駿（little fish） 我要怎麼跟嘉容說，因為我都是透過她約
+16:48 王泰期(NCHC) 然後有一個worker一直死掉
+16:48 余佑駿（little fish） 這是 wkc 的東西嗎?
+16:48 王泰期(NCHC) 不是
+16:48 余佑駿（little fish） 喔喔~所以又是一個新的問題Orz
+16:48 王泰期(NCHC) 有點像是彙整個人使用紀錄的東西
+16:49 王泰期(NCHC) 先等等明天早上再跟她說
+16:49 王泰期(NCHC) 應該是先跟她說
+16:49 王泰期(NCHC) 有可能會取消，明天早上在跟她確定
+16:50 余佑駿（little fish） 我擬個稿，學長你看一下好了，等我一下
+16:50 王泰期(NCHC) OK
+17:01 余佑駿（little fish） 那個....嘉容
+我想先打個預防針，可能明天會取消。
+
+目前狀況是，這一周我早上起床使用的都是順暢的。
+平時下午偶有當機，但是重新整理還可以運行，
+但是今天下午測試當機的情形比較嚴重，
+後來我有詢問維運團隊，找到問題是內部一個叫 metastoredb 的東西，會一直莫名地重啟。
+
+目前這個問題還沒有徹底解決，所以DAS才時好時壞這樣!!
+所以我也不確定明天的狀況會如何，因為和你們延遲一周也有點過意不去，
+請示泰期之後，決定明天早上再看看是否取消。
+
+--
+那如果真的取消，我這邊有個備案是
+我利用早上起來比較順暢的時候，錄製操作畫面並說明，
+之後提供影像的方式進行這樣。
+17:05 王泰期(NCHC) 哈哈錄影很累耶，不過是個很好的作法
+17:05 余佑駿（little fish） 所以這樣可以嗎?~我要瘋惹XD
+17:09 王泰期(NCHC) 我覺得可以讓他們感受一下畫面
+17:09 王泰期(NCHC) 這樣還可以，讓他們知道我們真的有環境可以使用
+17:09 王泰期(NCHC) 然後一些功能的介紹
+17:10 王泰期(NCHC) 之後還需要拍tutorial也可以直接拿來用
+17:10 王泰期(NCHC) 如過你錄影過程中也一直中斷就直接放棄
+17:12 余佑駿（little fish） 那....這段文字先傳給嘉容囉??
+
+然後明天看狀況，
+狀況不好如果還可以進入，就是介紹畫面(maybe 10分鐘)，
+狀況好就是帶操作
+17:13 王泰期(NCHC) 好這樣很有誠意了
+17:14 余佑駿（little fish） 傳惹
+17:42 余佑駿（little fish） 她說~好明天看情況這樣
+17:51 王泰期(NCHC) Ok
+18:52 王泰期(NCHC) 目前看起來是儲存的問題
+18:52 王泰期(NCHC) 這就麻煩大了
+18:56 余佑駿（little fish） 我下班的時候 Thomas Jane serena 還在處理，辛苦他們，我有說已經和高榮打聲招呼了，讓他們不要太累😣
+
+我想高榮那應該能體諒(希望啦
+2020.08.06 星期四
+08:42 王泰期(NCHC) 基本上網路、儲存、modeler flow都有點問題
+08:42 王泰期(NCHC) 不確定交互影響的關係
+08:42 王泰期(NCHC) 我個人認為是modeler flow造成的
+08:42 余佑駿（little fish） 我上傳檔案，大一點的會失敗
+08:42 余佑駿（little fish） 圖片
+08:42 余佑駿（little fish） 然後客戶不開心惹
+08:42 王泰期(NCHC) 圖片
+08:43 余佑駿（little fish） 可是看起來沒用滿阿QQ
+08:43 王泰期(NCHC) 這個只有modeler flow
+08:43 王泰期(NCHC) 占了一半的使用量
+08:59 余佑駿（little fish） 圖片
+09:00 王泰期(NCHC) 恩雲端服務維運不容易
+09:00 王泰期(NCHC) 我昨天想了一些監控需求，下周跟你們討論
+09:01 余佑駿（little fish） 我先已讀~ 現在我也不知道怎麼回答
+09:01 余佑駿（little fish） 我能想到的辦法是開VM建API，頂一下
+09:02 王泰期(NCHC) 個人的作法一定是這樣的情境
+09:02 余佑駿（little fish） 好啊~~ 那我周末找時間用一下 grafana 到時候可以匯總一些情境~
+
+09:02 王泰期(NCHC) 但是做成雲端服務就要處理這種問題
+09:03 余佑駿（little fish） 恩恩~~ 不知道其他大公司有沒有遇過這些問題，或是他們怎麼解決
+09:03 王泰期(NCHC) 我有空先列給你們，可能最後會跟普羅米修斯很像
+09:03 王泰期(NCHC) IBM就是大公司了
+09:04 余佑駿（little fish） 喔對齁XDDD~ 
+好~那就先這樣~我要使用宇宙能量祈禱了
+11:47 王泰期(NCHC) 圖片
+11:48 王泰期(NCHC) 發現hackmd的留言是用issue的方式進行
+11:49 余佑駿（little fish） 但是沒有好像統一管理 的 issue 頁面，要點進去一個一個看(據我所知啦~
+11:49 王泰期(NCHC) 對啊不過只是文件管理做到這個功能很不錯了
+18:50 王泰期(NCHC) 早上與Dev Team 檢視後，初步認定是NFS backend網路異常造成。
+下午和NCHC Storage Team 處理後，讓NFS 穩定下來後，
+目前 二個 namespace下的 metastoredb 啟動 1 小時後 ，還沒有Restart現象，
+比這二天穩定許多。
+18:51 王泰期(NCHC) 最近的異常原因
+18:51 王泰期(NCHC) 網路好難喔
+20:27 余佑駿（little fish） 圖片
+20:27 余佑駿（little fish） XDDD
+20:31 王泰期(NCHC) 哈哈是啊，解這種包好難
+2020.08.07 星期五
+09:07 王泰期(NCHC) @余佑駿（little fish） 你有收到IBM周一的會議通知信嗎
+09:08 余佑駿（little fish） NO
+09:08 余佑駿（little fish） 等等
+09:08 王泰期(NCHC) 我看是好像寄到就的信箱
+09:08 余佑駿（little fish） 我看一下舊信箱
+09:08 王泰期(NCHC) 我轉給你
+09:08 余佑駿（little fish） 喔有!!
+09:08 王泰期(NCHC) 就信箱還能用嗎
+09:08 余佑駿（little fish） 舊的信箱有~
+09:08 余佑駿（little fish） 還行~ 我轉給我自己XD
+09:09 王泰期(NCHC) 哈哈好
+09:13 王泰期(NCHC) 因為你出差只能用國防部計畫報，你理由就寫支援資料架構研究與使用開發
+09:14 余佑駿（little fish） 可是我應該是線上欸
+09:15 余佑駿（little fish） 等等我有要去台北嗎?XDD
+09:15 王泰期(NCHC) 喔看你啊，我本來是想說你可以到台北
+09:18 余佑駿（little fish） XDDD~ 等等我想一下，我去打聽一下有誰要去XD
+
+09:21 王泰期(NCHC) 過去的應該是我、正國、振凱、Jane、Serena
+09:25 余佑駿（little fish） 學長你會一早去大直嗎?
+
+09:40 余佑駿（little fish） 學長我周一不會去~嘿嘿~我應該會在遠端線上看這樣!!
+09:59 王泰期(NCHC) 好
+11:41 余佑駿（little fish） 978 -> 505 -> 831
+07/31 VM 誤刪後，VM數量的變化
+很精彩
+12:55 王泰期(NCHC) @余佑駿（little fish） 
+* FAE問題解決(103.124.73.9:4001)(佑駿)
+* 順貿環境架設(遠智、佑駿)
+第一個解了什麼問題，第二個是甚麼樣的運算環境用了什麼樣的技術
+12:55 王泰期(NCHC) 直接補在trello上
+12:55 余佑駿（little fish） 好
+13:25 王泰期(NCHC) 圖片
+13:25 王泰期(NCHC) 搞懂一點點普羅米修斯了
+14:39 余佑駿（little fish） 喔喔它的告警可以選 slack 欸
+值得一試
+14:47 姜順貿(NCCU,NCHC) 學長~~ 剛剛 討論時 忘記了 
+
+我從漢翔的資料，抓出來的資料無法當base版本，因為  我只抓 1XD~~
+
+模型1夠少了，所以我就沒去抓0的，有趣特地挑出重要的去訓練，不然怕比例還是依樣 1:9就不好了
+14:49 姜順貿(NCCU,NCHC) 所以大概的結果是 4個階段
+
+base+0501~0507
+
+base+0501~0514
+
+...
+
+base+0501~0531這樣
+18:36 王泰期(NCHC) @貿 CP4D沒有那麼厲害啦，不是為了所有分析專案設計的，我們只要確定使用者是誰就好了，就像漢翔的網頁，我們因為知道使用者是誰需要什麼而做的東西，CP4D比較麻煩的是使用需求比較廣泛，使用者是誰也不清楚，所以不可能一次就做到處理特殊資料的情境，未來如果生醫會是他們主要的族群的話，才有可能另外設計介面和環境
+19:11 王泰期(NCHC) @YOYO WANG 
+http://203.145.220.241:3000/
+這台是有鎖內網的電腦嗎
+19:27 YoyoWang(王遠智NCHC) 只開140.110
+19:27 王泰期(NCHC) 好，我需要幫工讀生申請vpn所以這個也要設定
+19:35 王泰期(NCHC) @余佑駿（little fish） 你看看8/19要不要親自去高榮一趟展現誠意，8/20再到中鋼
+21:42 余佑駿（little fish） 只有我代表去嗎？😱😱這樣我去的話要講些什麼XD
+21:43 余佑駿（little fish） 要去也可以啦，只是我怕我沒經驗，還沒展現誠意就搞砸哈哈哈，可以週一討論😂😂
+22:04 王泰期(NCHC) 不會啦，週一我在台北，週二 loadrunner 前談一下
+22:20 余佑駿（little fish） 貼圖
+2020.08.08 星期六
+19:04 余佑駿（little fish） @貿 
+140.110.93.45:8787
+
+dockeruser/Rstudio@2020
+改好密碼跟預設不會登入
+
+21:12 姜順貿(NCCU,NCHC) 收到
+2020.08.10 星期一
+09:18 王泰期(NCHC) @余佑駿（little fish） 你之前給高榮的那一份時程給我一下，我看一下落後的程度，我們一起趕一下
+09:20 余佑駿（little fish） 圖片
+09:21 余佑駿（little fish） 你說這個嗎? 我之前有段時間一直再用 DAS 的測試和教學，最近要重新再整理一下，
+模型的部分可能明天或後天跟你討論，這樣可以嗎
+09:21 王泰期(NCHC) 對的
+09:21 王泰期(NCHC) 好我們明天討論
+15:22 姜順貿(NCCU,NCHC) 學長~~你什麼時候方便，想找你討論一下 漢翔~~有點昏了
+15:23 王泰期(NCHC) 明天下午吧
+16:30 YoyoWang(王遠智NCHC) @王泰期 模型直接丟telegram給yp嗎？
+17:43 王泰期(NCHC) 對
+17:43 王泰期(NCHC) 簡單解釋一下
+2020.08.11 星期二
+08:57 王泰期(NCHC) @余佑駿（little fish） @貿 九點來我這邊討論一下可以嗎
+08:57 余佑駿（little fish） 好啊~ 可是我進度還沒整理好~先講一下也行(順便督促我自己一下
+08:59 姜順貿(NCCU,NCHC) 好，等我一下~~
+10:00 余佑駿（little fish） 我去拿水壺
+10:29 姜順貿(NCCU,NCHC) 學長~~ 想問 那天交通方式是什麼啊? (可以申請專車麻XD)
+10:30 王泰期(NCHC) 派車啊
+10:32 姜順貿(NCCU,NCHC) 喔喔 好~~
+10:32 姜順貿(NCCU,NCHC) 希望能準時回來~~(奢求XD
+11:50 王泰期(NCHC) 通常半天啦
+11:50 王泰期(NCHC) 中午過去請你們吃漢堡
+11:55 王泰期(NCHC) @YOYO WANG 是不是jenkins值接架在我們grafana那台就好
+11:55 王泰期(NCHC) 這是我構想的其中一塊
+13:51 YoyoWang(王遠智NCHC) 我想開一個新的
+13:51 YoyoWang(王遠智NCHC) 因為那個開在我的計畫 
+13:51 王泰期(NCHC) 好啊，新的都開在JANE的計畫下
+13:52 YoyoWang(王遠智NCHC) 那grafana也轉過去？
+13:52 王泰期(NCHC) 那就不用，等我想好一個具體的需求環境在請你處理
+13:53 YoyoWang(王遠智NCHC) 好
+14:37 YoyoWang(王遠智NCHC) @王泰期 vm的帳密我寄給你了～你在看需要轉寄給誰
+14:40 王泰期(NCHC) OK我看一下
+17:46 王泰期(NCHC) 發現我們硬碟蠻貴的耶
+17:47 王泰期(NCHC) 圖片
+17:47 王泰期(NCHC) 我以為都跟S3差不多
+17:47 余佑駿（little fish） TWCC上面的嗎?
+17:47 王泰期(NCHC) 對啊
+17:48 王泰期(NCHC) AWS也這麼貴嗎
+17:48 余佑駿（little fish） 現在不是沒有HDD可以選嗎lol~
+17:51 余佑駿（little fish） 如果我沒記錯的話XDD~我之前還跑去問 Clare
+現在好像都是SSD的選項
+18:01 
+18:03 YoyoWang(王遠智NCHC) 沒事借傳一下0v0
+2020.08.12 星期三
+10:57 余佑駿（little fish） 高榮和我約 下周二下午教育訓練
+幾點他們要看會議室再說
+10:57 余佑駿（little fish） 1400-1600(剛剛傳訊息了
+11:02 王泰期(NCHC) 好我可以一起
+11:03 王泰期(NCHC) 哈哈看到jane的訊息了
+11:05 余佑駿（little fish） 喔我崩潰
+11:06 王泰期(NCHC) 除非你要挑戰50個concurrent users 
+11:06 余佑駿（little fish） 我不想阿~
+11:07 余佑駿（little fish） 那我問一下~如果週三出差~我就是一早下去對吧~
+11:08 王泰期(NCHC) Yes
+11:13 余佑駿（little fish） 我打給人家講好了
+週三下去可以
+11:14 余佑駿（little fish） 時間等等看會議室才會再跟我說
+11:14 王泰期(NCHC) Good 
+11:14 王泰期(NCHC) 我看看我的時間，也許就陪你下去
+11:15 余佑駿（little fish） !! 不是我隔天還要幫忙代課XDD~
+學長你這樣當天來回太累了啦XDD
+
+(阿~然後剛剛他們有問是不是只有我，我說是
+11:16 王泰期(NCHC) 哈哈應該沒關係吧，我目前週三沒事
+11:17 余佑駿（little fish） OKOK~~ 我剛剛有先查地點了，還算近
+11:17 余佑駿（little fish） 圖片
+11:17 王泰期(NCHC) 可以搭計程車
+11:17 王泰期(NCHC) 只是高雄計程車超恐怖
+11:18 王泰期(NCHC) @YOYO WANG 下週請假的時候記得申請計程車費，小港到中鋼來回大概200
+11:19 YoyoWang(王遠智NCHC) 好
+11:20 王泰期(NCHC) @余佑駿（little fish） 你也申請兩百，用教育訓練的計畫，不清楚可以問子彞
+11:20 余佑駿（little fish） 好~
+11:21 王泰期(NCHC) 左營到高榮的計程車我來申請
+11:42 余佑駿（little fish） 她們人很好~
+10-12、14-16都留給我了
+可以的話，一起報一下目前敗血症進度，大概是這樣~
+12:46 王泰期(NCHC) 好，那先約早上，下午有時間再去中鋼協助教學
+15:36 王泰期(NCHC) @余佑駿（little fish） 中鋼調時間了，我就自己講就好，如果高榮下午沒事你再跟我去中鋼
+15:37 余佑駿（little fish） 好~~~
+15:39 王泰期(NCHC) 費用的話你用前瞻計畫申請
+15:39 余佑駿（little fish） 你是說下去高榮的費用嗎?
+15:39 王泰期(NCHC) 對
+15:39 余佑駿（little fish） OK
+15:39 王泰期(NCHC) 可以申請雜費
+15:40 王泰期(NCHC) 用教育訓練不能申請雜費
+15:40 余佑駿（little fish） 貼圖
+2020.08.13 星期四
+08:06 余佑駿（little fish） 學長~這個我想問一下
+- 請假我會，我應該是請一整天。勾選是否搭乘計程車，它說要去WF系統填寫派車申請單(我是不是勾錯什麼XD)
+- 申請費用的WF我要找誰問比較快，靖怡還是順貿~它有甚麼ERP單號，我有看沒有懂XD
+08:14 王泰期(NCHC) 我跟你講比較快
+08:14 王泰期(NCHC) 等下九點來找我
+08:14 余佑駿（little fish） OKOK
+09:18 余佑駿（little fish） yoyo ~
+想問一下如果要在 TWCC VM 上 git clone 公司的repository，要怎麼設定阿~
+
+我把我 error 貼下面，我上網找了一下方法突破不了，應該跟一些網路設定有關，想說問你看看XDD
+09:19 余佑駿（little fish） 圖片
+09:22 YoyoWang(王遠智NCHC) vpn?
+09:23 余佑駿（little fish） 喔對欸!! 突破盲點XDD 
+我完全忘記VPN的問題~
+那你有試過 ubuntu 上面要怎麼用 VPN 嗎?
+09:26 余佑駿（little fish） 我之後 try try 看~ 有解法再分享給大家，因為之後大家應該會多在 VM 上面做事(感覺這會用到XDD~剛好我最近卡到這問題
+09:26 YoyoWang(王遠智NCHC) 沒試過
+09:33 余佑駿（little fish） 好阿~ 剛剛查一下好像要try 一下
+我應該假日才會研究看看~如果你有先研究出來再分享XDD
+09:34 王泰期(NCHC) 可能問一下thomas也許比較快
+09:35 余佑駿（little fish） 喔喔~好~
+16:40 YoyoWang(王遠智NCHC) 圖片
+16:40 YoyoWang(王遠智NCHC) 計程車費是這樣填寫嗎?
+16:40 王泰期(NCHC) yes
+16:41 YoyoWang(王遠智NCHC) 這個需要附上檔案?
+16:42 王泰期(NCHC) 不用
+16:42 王泰期(NCHC) 高雄計程車很兇，記得上車就跟他說要收據
+16:43 YoyoWang(王遠智NCHC) 收據需要統編織類嗎?
+16:43 YoyoWang(王遠智NCHC) 還是有金額就可以了
+16:43 王泰期(NCHC) 不用統編
+17:09 余佑駿（little fish） 學長~先和你報告一下Orz
+
+我高榮那邊還沒用好，目前才把資料整理好(就是這一段的 code 稍微整好+效能up)
+訓練模型我還沒開跑，可能晚上我用一下，明天才能跟你說結果。
+
+然後整理流程的 ppt 我有順便做。
+
+所以就是差跑模型， 跟把模型的表現指標填入表格這樣~
+
+17:10 王泰期(NCHC) 好
+17:11 王泰期(NCHC) 有在DAS上跑沒問題了嗎
+17:11 余佑駿（little fish） 沒
+17:11 王泰期(NCHC) 哈哈好你加油
+17:12 余佑駿（little fish） 這段我沒做，我也不敢做XDD
+之前為了在 DAS 上面跑，有點傷神~ 我還是先在local端用好，之後上面在想辦法好了
+17:12 余佑駿（little fish） btw, 如果之後測試的話，我可以直接try 在 3.0 嗎?
+17:13 王泰期(NCHC) 可以，只是3.0沒有Rstudio
+17:13 王泰期(NCHC) 比較可能有落差應該pmml的版本問題
+17:13 余佑駿（little fish） 貼圖
+17:14 余佑駿（little fish） 好吧~那我再看看XDD
+17:18 王泰期(NCHC) 我覺得先簡單確定模型部署沒問題
+17:18 王泰期(NCHC) 會是這次的重點
+17:18 余佑駿（little fish） 好~  阿對了~教育訓練還是 2.5 齁~
+17:19 余佑駿（little fish） 阿阿對~沒事~因為3還有功能不齊
+21:11 王泰期(NCHC) Cycles-Showeet(widescreen).pptx
+21:11 王泰期(NCHC) 各種美麗的循環圖
+21:11 王泰期(NCHC) 做投影片可參考使用
+2020.08.14 星期五
+09:56 王泰期(NCHC) https://www.r-bloggers.com/how-to-use-ci-cd-for-your-ml-projects/
+09:56 王泰期(NCHC) @YOYO WANG 這篇文章搭配Jenkins，看看我們小組自己實做一次
+09:56 王泰期(NCHC) 我覺得是系統開發上需要完整走一段的
+10:45 YoyoWang(王遠智NCHC) server連不上了
+10:46 余佑駿（little fish） 我可以欸
+10:46 YoyoWang(王遠智NCHC) 剛斷線
+10:56 YoyoWang(王遠智NCHC) 是要測loadrunner?
+10:58 王泰期(NCHC) 是同時為了側loadrunner
+10:59 王泰期(NCHC) 但是CI/CD上我任為是為了模型開發上的目的
+10:59 王泰期(NCHC) 可能之後model market會有這個需求
+16:29 余佑駿（little fish） 圖片
+16:30 余佑駿（little fish） 學長~剛剛嘉容問我的~
+17:31 王泰期(NCHC) 哈哈其實我也沒那麼重要
+17:37 余佑駿（little fish） 不過我也還沒用完😰😰
+17:38 余佑駿（little fish） 有點想做好一點，被自己卡死。
+17:39 余佑駿（little fish） 那我回說，學長下午會先離開，如果要邀請主任可能早上比較方便。
+但其實可以不用邀請
+
+這樣嗎哈哈哈
+17:55 王泰期(NCHC) 哈哈你應對越來越好了
+17:55 王泰期(NCHC) 這樣很可以
+2020.08.17 星期一
+08:59 余佑駿（little fish） https://hackmd.io/@thomastsai/Sy5BajmMv
+
+Thomas 幫忙測的 TWCC-VM VPN
+我有自己在 try 過一遍，可以使用
+給大家參考
+09:02 王泰期(NCHC) Good (good)
+11:48 余佑駿（little fish） 學長~你下午和thomas 討論我要一起聽嗎? 因為更新有一段是我用的XDD
+11:50 王泰期(NCHC) 嗯我再問他時間
+11:50 王泰期(NCHC) 應該四點左右
+11:50 余佑駿（little fish） 好~~
+16:46 余佑駿（little fish） 學長計畫那個我是選橋接-創新，對吧?
+16:46 余佑駿（little fish） 圖片
+17:14 余佑駿（little fish） 然後金額我寫200是參考遠智上面的XD~
+17:31 王泰期(NCHC) OK
+17:32 余佑駿（little fish） 學長我再問一個問題~ 
+我有點想買一個 git 課程，計畫類別是選橋接_創新還是橋接_推動阿
+我剛剛去問順貿他之前是推動~
+17:32 王泰期(NCHC) 因為順貿亂用
+17:33 王泰期(NCHC) 我們是用創新
+17:33 余佑駿（little fish） 喔喔喔~~好~了解
+17:34 王泰期(NCHC) 或是用 數據分析與AI模式研發
+17:34 王泰期(NCHC) 然後順貿可以用漢翔，你可以多用國防部
+17:35 王泰期(NCHC) 然後我沒碰到Thomas你們明天loadrunner的時候問他看看怎麼開branch比較好
+17:37 余佑駿（little fish） 好~~ 我今天有LINE上跟他前情提要
+可能是 branch 的 tag 要設計一下
+17:39 王泰期(NCHC) 我自己是這樣想，官網上放3.0 另外補充一個2.5的放在公開的hackmd或是我另外付費買一個自用
+17:39 余佑駿（little fish） 欸欸~還是學長你在樓上我上去找你
+17:39 王泰期(NCHC) 好啊我去買便當
+17:39 王泰期(NCHC) 可以一起去
+17:39 余佑駿（little fish） XDD我要回家吃~我等你回來XDD
+17:40 王泰期(NCHC) OK，那我縣去跟你講
+17:40 余佑駿（little fish） 喔喔好~~
+17:50 余佑駿（little fish） 順便問個~我是不是哪裡操作有錯XD
+17:50 余佑駿（little fish） 圖片
+17:50 余佑駿（little fish） 上面訊息是"無可批次簽核之作業！"
+18:03 王泰期(NCHC) 要一個一個送
+18:03 王泰期(NCHC) 點進去按申請
+2020.08.18 星期二
+05:49 余佑駿（little fish） 喔喔!!成功了~WF摸索中
+
+05:50 余佑駿（little fish） 國防部的名稱是
+"03108C2108_公開軍事情報分析系統等3項"
+這個對吧~
+06:58 王泰期(NCHC) 是
+07:05 余佑駿（little fish） 好~~
+07:06 余佑駿（little fish） btw, 如果我購買課程有出現怪怪的會計科目錯誤，這個是找曼宣嗎?(我附個圖XD)
+07:06 王泰期(NCHC) 找財會設定
+07:06 余佑駿（little fish） 圖片
+07:07 王泰期(NCHC) 問胡嘉玲
+07:07 余佑駿（little fish） 喔喔!!好~OKOK
+09:46 王泰期(NCHC) @YOYO WANG 幫忙study splunk這個軟體和sagemaker能不能用das的功能取代
+09:47 王泰期(NCHC) 看看下週一能不能給我比較結果
+09:48 王泰期(NCHC) Sagemaker價格比較可以找業務小貝一起幫忙
+10:09 YoyoWang(王遠智NCHC) 全部的功能？
+10:22 王泰期(NCHC) 主要是資料串流和dashboard 
+10:23 王泰期(NCHC) Splunk 的部分
+10:23 王泰期(NCHC) Sagemaker就是model create和deployment 
+14:45 姜順貿(NCCU,NCHC) 記得報名
+
+福委會訂於9/3(四)於田季發爺燒肉(竹北)餐廳，舉辦中秋節餐會
+14:45 姜順貿(NCCU,NCHC) http://narl.colife.org.tw/
+14:53 余佑駿（little fish） 學長~ 上面那個烤肉是限制06/30以前報到的人員，阿這我問過靖怡了(靖怡問過志泓)，結論就是先報這樣~ 跟你講一聲XD
+14:53 王泰期(NCHC) 好
+21:16 王泰期(NCHC) @余佑駿（little fish） 明天搭哪一班去了
+21:16 余佑駿（little fish） 805
+21:16 余佑駿（little fish） 07:47-09:25這一班
+23:06 王泰期(NCHC) 好喔明天見
+23:20 余佑駿（little fish） 貼圖
+2020.08.20 星期四
+07:21 姜順貿(NCCU,NCHC) 學長，今天早上起來雖然比昨天狀況好些，不過還是有，全身無力，暈眩感。需要一點時間修養，今天能不能請個病假，在家修養呢(please!)
+07:24 王泰期(NCHC) 沒問題啊，好好休息
+13:29 余佑駿（little fish） 問個問題唷~ 傷病假一定要附醫療收據嗎?
+還是順貿那個我先簽核是可以的嗎?
+怕出事想說問一下XD
+13:32 王泰期(NCHC) 我也不清楚耶，應該是不用吧
+13:32 余佑駿（little fish） XD~那我就直接簽啦~
+13:59 姜順貿(NCCU,NCHC) 我有附啊
+13:59 姜順貿(NCCU,NCHC) 一定要附才能請
+14:00 姜順貿(NCCU,NCHC) 不然會被退，感謝
+14:01 余佑駿（little fish） 喔喔~可能我那個頁面看不到~
+因為我點進去SSO login就會一直重新登入之類的
+我只知道我前東家沒有會被退XDD
+沒當過傷病的核准人員啦~XD
+15:22 姜順貿(NCCU,NCHC) 😂😂感謝，以後可以加入，15天哦
+22:40 余佑駿（little fish） https://edm.bnext.com.tw/2020ddt-summit/#s4
+學長我有點想去聽這個，0916(三)
+目前看起來沒有和DAS教育訓連衝突到
+想問問看能不能去~看看他們分享金融數位轉型的架構XD
+2020.08.21 星期五
+07:39 王泰期(NCHC) 看起來不錯啊，可以報公假去
+08:33 余佑駿（little fish） 好耶~
+10:54 余佑駿（little fish） 以後每個人每個月會有一封社交陷阱信。落入陷阱的人可能要上台報告😂😂
+11:04 王泰期(NCHC) 陷阱超多的啊
+11:04 王泰期(NCHC) 我覺得很煩
+11:05 余佑駿（little fish） 朱副好像說我們還是第一名，所以才有此下策😂
+15:16 姜順貿(NCCU,NCHC) 學長可以順便 問廖老師  爬蟲他都怎麼監管的 XD
+17:09 王泰期(NCHC) 喔喔忘記了
+17:10 王泰期(NCHC) 打算直接委託他們爬文
+17:25 姜順貿(NCCU,NCHC) 他們有多做什麼事情阿
+17:44 王泰期(NCHC) 技術我覺得不是重點
+17:45 王泰期(NCHC) 而是值得信任和廖老師還蠻認真要走新創
+17:49 姜順貿(NCCU,NCHC) (shocked)(shocked)
+17:49 姜順貿(NCCU,NCHC) 不會是1個來源1w吧，哈哈哈
+17:56 王泰期(NCHC) 不知道，應該是整包的談
+17:56 王泰期(NCHC) 預計一年大概兩百萬委託他們
+18:06 姜順貿(NCCU,NCHC) 國網真的佛XD
+18:08 姜順貿(NCCU,NCHC) 今天學長問了他很好的問題,技術先不論,如同他講的民眾閱讀新聞的習慣的話,那他的APP要怎麼推?
+
+他沒有回答好,還是盡全力去推他的新創~~~也太好了
+18:09 王泰期(NCHC) 對啊，所以後來我們關門討論的就是合作模式
+18:09 王泰期(NCHC) 他們負責塞資料和開發分析api
+18:09 王泰期(NCHC) 我們負責系統架構和web portal
+18:09 王泰期(NCHC) 然後先走B2B，在考慮走B2C
+18:11 姜順貿(NCCU,NCHC) 那這樣前提 又變了  要考慮這個夥伴的技術XD~~ 一場演講 無法知道他的技術 好不好
+18:12 王泰期(NCHC) 對啊，所以他只是其中一個
+18:12 王泰期(NCHC) 上次JANE有提其他好幾個
+18:12 姜順貿(NCCU,NCHC) 喔喔喔  那不錯
+18:12 王泰期(NCHC) 台大李宏毅也是可以合作的對象
+18:13 王泰期(NCHC) 還有一個交大的教授
+18:13 姜順貿(NCCU,NCHC) 這個我覺得很可以XD
+18:13 王泰期(NCHC) 黃紹華
+18:13 王泰期(NCHC) 郭志毅
+18:14 王泰期(NCHC) 廖老師是最積極的一個
+18:14 姜順貿(NCCU,NCHC) 太多人 會不會被發現自己是備胎! 
+18:15 王泰期(NCHC) 不會阿，我們就會是負責資料、分析、介面的"設計者"
+18:15 王泰期(NCHC) 只是我們還是需要知道這些領域的技術門檻，才知道誰的東西比較好，誰是可靠的夥伴
+18:16 王泰期(NCHC) 像杜亦瑾就很難搞
+18:16 姜順貿(NCCU,NCHC) 其實 我只聽過李宏毅XD~~
+18:17 王泰期(NCHC) 還有中研院那票人啦，其實都很厲害
+18:17 王泰期(NCHC) 我自己認為我們中心最適合做資料
+18:17 王泰期(NCHC) 做計算價值沒那麼高
+18:18 姜順貿(NCCU,NCHC) 計算是指什麼?
+18:19 王泰期(NCHC) HPC和GPU container阿
+18:20 王泰期(NCHC) 中心三大服務，儲存、計算、網路
+18:20 王泰期(NCHC) 出去介紹的時候就講這三件事情
+18:20 姜順貿(NCCU,NCHC) 哈哈哈 這個 錢很多~~~(如果有人用的話
+18:20 王泰期(NCHC) 對啊，但是做長期的一訂是做儲存
+18:21 姜順貿(NCCU,NCHC) 沒錯
+2020.08.24 星期一
+13:28 余佑駿（little fish） 廖老師是自己用 log file 做監控的，我寫信問他了
+13:55 姜順貿(NCCU,NCHC) 😮
+15:24 YoyoWang(王遠智NCHC) AWS&SPLUNK.pptx
+15:24 王泰期(NCHC) 謝謝我等下看
+15:24 YoyoWang(王遠智NCHC) 感覺splunk走向跟我們不太一樣
+15:25 YoyoWang(王遠智NCHC) 稍微測試一下而已，我撈不到本機的日誌測試
+15:30 王泰期(NCHC) splunk比較像事ELK
+15:31 王泰期(NCHC) 他應該沒有內建的資料分析或是告警機制吧
+15:36 YoyoWang(王遠智NCHC) 資料分析是指哪種
+15:36 YoyoWang(王遠智NCHC) 我看上面有指標可以去看視覺化
+15:36 王泰期(NCHC) 自動做異常偵測和分類機制
+15:36 YoyoWang(王遠智NCHC) 簡單的計算平均之類的吧
+15:36 王泰期(NCHC) 恩視覺化的功能比較像事kibana
+15:36 YoyoWang(王遠智NCHC) 複雜的我沒看到
+15:36 YoyoWang(王遠智NCHC) 我沒試太多
+15:37 YoyoWang(王遠智NCHC) 因為它主要是監控機器的
+15:37 王泰期(NCHC) 恩恩好，因為我們資安團隊買這個好像花300W還是500W
+15:37 YoyoWang(王遠智NCHC) 我一直抓不到資料
+15:37 YoyoWang(王遠智NCHC) 上面有alert功能
+15:37 YoyoWang(王遠智NCHC) 應該是可以設定告警
+15:38 王泰期(NCHC) 如果我們用DAS streams + autoai 另外掛grafana好像也可以達到類似的效果
+2020.08.25 星期二
+11:01 余佑駿（little fish） User_Portal_第三期-0818-final_VCS_0818.pdf
+11:01 余佑駿（little fish） User_Portal_第三期-0825-final_COS_0825.pdf
+11:01 余佑駿（little fish） 想說只有我來教育訓練~ 分享TWCC廠商的投影片給大家，
+11:01 王泰期(NCHC) 喔喔原來是今天
+11:01 王泰期(NCHC) 我有想去聽說
+11:01 余佑駿（little fish） 順貿如果想初學入門~應該可以看看
+11:01 王泰期(NCHC) 你結束找你確認一下新板手冊的問題
+11:02 余佑駿（little fish） 喔喔~ 那我再去找你XDD~ 
+到12點的樣子
+11:04 王泰期(NCHC) 好
+12:29 余佑駿（little fish） https://dataplatform.cloud.ibm.com/docs/content/wsj/refinery/refining_data.html
+17:41 余佑駿（little fish） 是說DAS的穩定性能撐住嗎~(對不起我還有陰影XDD~ 
+是不是之前討論綁定網域後限定使用容量的做法要先確定下來，不然好抖lol~
+17:42 王泰期(NCHC) 內部組織、跨團隊、專案式，數值分析為主，就是DAS的目標客群啊
+17:47 余佑駿（little fish） 對阿~我是怕我們沒有先壓力測試，如果對方說那個網域想要加使用空間，能做到嗎XD?
+然後還有每一個團隊都在同一個網域下，這樣是不是會互搶，所以大家網域是不是要分開，但我網路那塊沒有很懂~~
+17:47 余佑駿（little fish） 就是當初設想的是
+"台電.das.twcc.ai"
+
+但我怕是要開成
+- 台電team1.das.twcc.ai
+- 台電team2.das.twcc.ai
+...
+17:50 王泰期(NCHC) 嗯嗯就是跟他們談
+17:50 王泰期(NCHC) 小型的專案我認為沒問題
+17:51 余佑駿（little fish） 喔喔~那應該沒問題XD~ 
+我只是先想到怕會出事的地方XDD
+但是感覺台電應該好說話~(大家都是公部門體系XD
+17:52 YoyoWang(王遠智NCHC) 直接上3.0a87
+17:52 YoyoWang(王遠智NCHC) 嗎
+17:52 王泰期(NCHC) 是啊
+17:53 王泰期(NCHC) 企推的力道也很足
+17:54 王泰期(NCHC) 你們是不是沒收到企推的信
+17:54 王泰期(NCHC) 我轉給你們
+17:54 YoyoWang(王遠智NCHC) 沒有
+17:54 余佑駿（little fish） 沒有XDD~ 但是我有企推的八卦XDD
+17:55 余佑駿（little fish） 今天教育訓練旁邊的同事說的，聽說年底會走一批人
+17:55 YoyoWang(王遠智NCHC) 泰期我這周四五請假
+17:56 王泰期(NCHC) 好啊，本來想說週五跟你討論docker的
+17:56 王泰期(NCHC) 下週找時間來新竹一趟
+17:56 YoyoWang(王遠智NCHC) ok
+17:57 王泰期(NCHC) 我手機只有佑駿的信箱，佑駿你再轉給其他人
+17:57 王泰期(NCHC) 就是yoyo順貿這一批啊
+17:57 王泰期(NCHC) 只是會找時間跟他們談續聘
+17:59 余佑駿（little fish） 我知道是計畫到期~
+可是他是說她們很多人不想待了(辦公室有一群人在找下份工作~~氛圍啦氛圍啦XD
+
+17:59 王泰期(NCHC) 當然會啊，就是看看這邊的環境是不是你們想要的
+18:00 王泰期(NCHC) 有問題都可以先跟我談
+18:00 余佑駿（little fish） 我發現其實我有收到，1738分寄的~
+18:00 王泰期(NCHC) 喔喔對
+18:00 王泰期(NCHC) 因為你有拍影片
+18:01 王泰期(NCHC) 主任搞這一波就是要讓大家知道要認真推一個產品其實是很辛苦的
+18:02 王泰期(NCHC) 順便重新定位國網中心
+18:02 余佑駿（little fish） 喔乾我轉寄惹~~喔拜託你們不要看影片~(尖叫lol~~
+AutoAI是子彝，可以看AutoAI~XDD
+18:05 姜順貿(NCCU,NCHC) 哈哈哈(好笑)總覺的國網拍影片怎麼都把人拍的不好看啊，是不是沒有化妝師stand by的緣故
+18:06 余佑駿（little fish） 沒有~那是我太醜的原因，我先對你的眼睛說聲抱歉XD
+18:06 王泰期(NCHC) 哈哈，他們想要表現的是真實的工作者的樣貌
+18:09 姜順貿(NCCU,NCHC) 我還沒看到你的，😒
+18:32 余佑駿（little fish） 學長~
+今天中午討論的部分我再想了一下
+劃一個流程圖你看一下這樣有沒有更完善(或是太冗XD)
+
+然後沒問題的話，我寫信和 Viga 說一下我們會在中心的HackMD下開新團隊空間。
+想說告知一下比較好XD
+也順便問問看關於批次上傳，他們有沒有其他作法。
+18:32 余佑駿（little fish） 圖片
+21:17 余佑駿（little fish） 來自客戶的真實反映lol~~~
+21:17 余佑駿（little fish） 圖片
+21:25 YoyoWang(王遠智NCHC) 貼圖
+21:31 余佑駿（little fish） 貼圖
+2020.08.26 星期三
+11:19 余佑駿（little fish） 學長，週五小組會議我再問你去民航局要注意看什麼~還是只是參觀而已XD~借我記一下
+11:21 王泰期(NCHC) 應該是接收資料和處理的問題
+11:21 王泰期(NCHC) 要協助正國做
+11:32 余佑駿（little fish） 貼圖
+2020.08.27 星期四
+10:10 余佑駿（little fish） 新竹的電話好像因為網路斷了，所以不能打了
+10:10 余佑駿（little fish） 我是指中心桌上的電話XD
+10:10 王泰期(NCHC) 哈哈怎麼連這種事都會發生
+10:11 王泰期(NCHC) 所以是wifi斷了嗎
+10:11 余佑駿（little fish） 你們是嗎?還是只有我
+10:11 余佑駿（little fish） 順貿說 wifi 斷了
+10:11 王泰期(NCHC) 不知道
+10:11 王泰期(NCHC) 所有的wifi嗎
+10:11 余佑駿（little fish） 因為我用桌機，所以沒感覺~
+剛剛是要打電話突然發現我電話斷線了
+10:11 王泰期(NCHC) 喔喔原來是這樣
+10:12 余佑駿（little fish） @貿 所以狀況是怎樣XDD~你在三樓有消息嗎?
+10:12 余佑駿（little fish） 是不是施工阿(最近好像在施工
+10:12 王泰期(NCHC) 恩恩可能是施工的問題
+10:12 王泰期(NCHC) 等等吧
+10:13 王泰期(NCHC) 是說昨天有一個TWCC的用戶，在FAE的協助下，把自己VM刪除了
+10:13 王泰期(NCHC) 應該跟你們沒關係吧
+10:14 余佑駿（little fish） 我沒有?? 
+10:14 余佑駿（little fish） 我沒有~恩恩
+順貿在我這~他說他那間實習生的網路也全斷了XDD
+10:19 姜順貿(NCCU,NCHC) 可以了  網路就回來惹
+10:20 姜順貿(NCCU,NCHC) 斷了20分鐘有~~
+10:21 姜順貿(NCCU,NCHC) 最近都沒有客戶跟我聯絡XD~~ 應該跟我沒關係
+10:21 王泰期(NCHC) 嗯嗯應該就是別人啦，只是協助到出包也是蠻誇張的
+10:23 余佑駿（little fish） 圖片
+10:23 余佑駿（little fish） 這東西設定跑掉
+10:23 余佑駿（little fish） 是找UHD嗎
+10:25 余佑駿（little fish） 喔喔~~我是天才我解決了XDDD
+10:37 王泰期(NCHC) 哈哈我不知道耶，沒認真用過我們的分機
+10:39 余佑駿（little fish） 學長~我後來有先告知 Viga 我們會開新的空間
+然後他們使用情境上也沒有像我們需要大量更新的情境，所以批次上傳/轉移的功能目前沒有
+
+至於我之前有詢問 gitlab 連動，他們說預計是年底會上線，恩恩
+
+10:40 余佑駿（little fish） username: 是分機號碼，比如184
+password: 123456。隆正跟我說的XD
+10:40 王泰期(NCHC) 喔喔有gitlab很不錯
+10:41 王泰期(NCHC) 我希望之後有機會直接跟他們開發團隊談需求
+10:41 王泰期(NCHC) 也許可以變成不錯的夥伴
+11:46 余佑駿（little fish） 圖片
+11:47 余佑駿（little fish） @貿 你之前測試失敗的資料是欄位數目對不對
+11:47 余佑駿（little fish） 還是是容量大小我有點忘了XD
+11:50 余佑駿（little fish） 然後這看起來很猛~
+認真看改版真不少
+11:50 姜順貿(NCCU,NCHC) 欄位數目過多
+11:50 余佑駿（little fish） 圖片
+11:52 余佑駿（little fish） 好~ 之後有空在找你 data 幫你多測試，開 issue 好了~我發現更新裡面有些是我們提出的 issue (各種欣慰XD
+2020.08.28 星期五
+08:52 王泰期(NCHC) @余佑駿（little fish） 幫我開一個給ibm測試的s3,要提供給他們key和token
+08:53 余佑駿（little fish） 好
+08:57 姜順貿(NCCU,NCHC) 學長 今天的與會    午餐我有需要幫忙訂餐嗎? 沒有收到通知XD
+09:01 余佑駿（little fish） 寄信了
+09:10 王泰期(NCHC) 我自己會處理便當
+09:10 王泰期(NCHC) 我早上在外面直接買過去
+09:10 姜順貿(NCCU,NCHC) 好的
+13:33 王泰期(NCHC) @余佑駿（little fish） 便當收據跟找零呢？
+13:33 余佑駿（little fish） 對~在你桌上
+13:33 余佑駿（little fish） 正要跟妳說
+13:33 余佑駿（little fish） 圖片
+13:34 王泰期(NCHC) 喔喔看到了
+13:34 王泰期(NCHC) 謝啦
+13:34 余佑駿（little fish） 櫃台姊姊有拿給我~但是你在JANE辦公室所以我就先用紙檔起來
+13:34 余佑駿（little fish） 恩恩
+13:57 余佑駿（little fish） 學長~~你中秋聚餐有找人了嗎?
+如果沒有，我、你、順貿，還缺一個人XDD
+看看學長有沒有誰可以約~
+13:58 王泰期(NCHC) 明瑤?
+14:00 余佑駿（little fish） 明瑤拋棄我們去找靖怡了XDD
+14:02 王泰期(NCHC) 哈哈好吧，找卓璠
+14:06 余佑駿（little fish） OK~約好了~我你順貿卓璠~
+14:24 姜順貿(NCCU,NCHC) yoyo下次有機會禮拜五出差來新竹，可以帶個桌遊XD 和申請表，我要入社，社長~~~(emoji)(emoji)
+14:24 姜順貿(NCCU,NCHC) 或是佑駿趕快創一個(emoji)(emoji)
+18:08 王泰期(NCHC) 有老式桌遊拱豬比賽，你們要參加嗎
+18:12 王泰期(NCHC) TWCC好像又有狀況了
+18:25 姜順貿(NCCU,NCHC) 那個不會玩(hahaha)
+18:37 王泰期(NCHC) 我以為拱豬是數學系的基本技能
+18:45 姜順貿(NCCU,NCHC) (gasp!)(gasp!)其實進來前我沒聽過這個
+18:45 王泰期(NCHC) 哈哈時代不同了
+18:45 王泰期(NCHC) 橋牌和傷心小站呢
+19:13 姜順貿(NCCU,NCHC) 哈哈哈，給正常點的佑駿回答
+
+
+我只有聽過沒玩過
+20:49 王泰期(NCHC) @余佑駿（little fish） 周一到大直不用準備東西，我們到那邊討論一下系統的需求就好
+20:49 王泰期(NCHC) 週五跟yoyo討論系統要安裝的東西
+22:35 余佑駿（little fish） OKOK~收到XDD
+喔喔別忘了週五實習生要來(我怕你時間卡在一起~ 
+
+22:36 余佑駿（little fish） 有啦!!傷心小棧欸~ window 內建阿
+我橋牌沒有很會~大家高中不是都會偷偷打嗎XDD
+22:36 姜順貿(NCCU,NCHC) 怎麼佑駿高中這麼認真
+22:36 余佑駿（little fish） 拱豬我倒是第一次聽到，我看到這項目還去 google XDD
+22:36 姜順貿(NCCU,NCHC) 我只有爆爆王的回憶
+22:37 余佑駿（little fish） 我高中最瘋的應該是 temple run 和 doodle
+22:37 余佑駿（little fish） 拜託不要XDDD
+22:38 姜順貿(NCCU,NCHC) 我怎麼都沒聽過@@  確定同年紀嗎 哈哈
+22:40 余佑駿（little fish） 我今天和網路上認識的在職公衛碩士生討論論文
+看到一個很猛的分析方法-逆軌跡分析(Backward trajectories)
+可以用在找汙染源或是之類的~
+
+有空可以來試試
+22:42 余佑駿（little fish） 像這種~ 感覺是個有趣的分析手法(我第一次聽到XD
+22:42 余佑駿（little fish） 圖片
+2020.08.31 星期一
+09:27 余佑駿（little fish） 學長和你說一聲~我到大直囉~
+
+09:31 王泰期(NCHC) 好我剛到台北車站
+09:32 YoyoWang(王遠智NCHC) 這週哪天上去開會方便嗎？
+09:32 王泰期(NCHC) 週五，中午一起吃飯
+09:33 YoyoWang(王遠智NCHC) ok
+09:34 YoyoWang(王遠智NCHC) markets要先測嗎，還是到時候再討論？
+09:42 余佑駿（little fish） 學長，敬堯說今天早上機器又重開機，所以等等要檢查東西是不是都有起來
+09:43 王泰期(NCHC) 是週四要討論，你先走一次流程寫成手冊的形式，有問題直接問他們
+09:43 王泰期(NCHC) 是我等下過去一起看
+09:43 YoyoWang(王遠智NCHC) 了解
+11:51 余佑駿（little fish） https://blog.gtwang.org/linux/linux-crontab-cron-job-tutorial-and-examples/
+
+排程看起來是這個
+16:27 王泰期(NCHC) @貿 有買漢翔嗎
+16:28 姜順貿(NCCU,NCHC) 沒有..... 
+16:28 姜順貿(NCCU,NCHC) 怎麼了?  亮燈了齁?
+16:30 王泰期(NCHC) 圖片
+16:30 王泰期(NCHC) 圖片
+16:31 王泰期(NCHC) 財富自由靠你自己了
+16:31 姜順貿(NCCU,NCHC) XDD  
+16:31 余佑駿（little fish） 我也好想財富自由😂😂
+16:31 姜順貿(NCCU,NCHC) 我先能活下去 就好
+16:31 YoyoWang(王遠智NCHC) 有內線？ＸＤ
+16:31 姜順貿(NCCU,NCHC) 財富自由太遙遠了
+16:32 姜順貿(NCCU,NCHC) 現在快活不下去惹
+16:32 姜順貿(NCCU,NCHC) 貼圖
+16:34 王泰期(NCHC) 自己的客戶自己顧啊
+16:40 姜順貿(NCCU,NCHC) 有的話就好惹XDD  遠智 快～ 別找中鋼這種大牛股了，朝著中小型股公司邁進，這樣比較有機會有內線
+16:40 姜順貿(NCCU,NCHC) 貼圖
+16:43 余佑駿（little fish） 原來大家都有玩😂😂
+我最近才存到一筆錢自己要開始進場
+16:44 姜順貿(NCCU,NCHC) 遠智應該沒玩股票，我的意思是  遠智負責的公司 -中鋼 是個大牛股，很難有內線，也很難推股價，所以要找個小型公司，比較有機會，波動也大
+16:45 YoyoWang(王遠智NCHC) 貼圖
+16:46 余佑駿（little fish） 貼圖
+17:06 王泰期(NCHC) 中鋼不要買，雖然我也覺得是好公司
+17:06 王泰期(NCHC) 推薦中華電信當定存
+17:11 姜順貿(NCCU,NCHC) !!
+17:11 姜順貿(NCCU,NCHC) 國網不是 要 把中華 幹掉麻
+17:11 姜順貿(NCCU,NCHC) 還是我誤會了
+17:12 王泰期(NCHC) 你是不是相信林副的話了
+17:12 姜順貿(NCCU,NCHC) XDD
+17:12 姜順貿(NCCU,NCHC) 可是 錢不是撥了?
+17:12 姜順貿(NCCU,NCHC) 計畫確定要進行阿
+17:13 王泰期(NCHC) 跟TWCC一樣吧
+17:13 王泰期(NCHC) 設定是台灣的AWS
+17:14 姜順貿(NCCU,NCHC) 就算是 雞肋，還是會搶一些的客戶吧?(想省錢的人
+17:14 王泰期(NCHC) 網路的部分你可以等比看待
+17:14 王泰期(NCHC) 對啊，有角色，但是做到什麼程度我覺得難說
+17:15 王泰期(NCHC) 認真說，DAS是我覺得國網最可能有機會的產品
+17:18 姜順貿(NCCU,NCHC) 因為是 IBM 做的  不是 國網自家委外生產麻
+17:19 姜順貿(NCCU,NCHC) 貼圖
+17:19 王泰期(NCHC) 是的
+17:19 姜順貿(NCCU,NCHC) 哈哈哈哈哈  
+17:19 王泰期(NCHC) 台灣過去沒有過成功的軟體公司
+17:45 余佑駿（little fish） 我是要買這家沒錯，但還在觀望進場時間，還有其他家再考慮
+17:47 余佑駿（little fish） 只是中華電信近五年利息越發越少就是了
+17:48 余佑駿（little fish） 我記得林副是說要制衡，但不太可能幹掉我覺得😂😂
+17:49 姜順貿(NCCU,NCHC) 我的意思是，當政府有心要制衡一家公司，最好不要站在政府的對面，很可怕~~
+17:50 余佑駿（little fish） 這我不行，陰影還太深哈哈哈，希望趕快穩定就好
+17:54 王泰期(NCHC) 哈哈制衡沒有用吧，我覺得就是補一塊中華電不足的部分
+17:55 王泰期(NCHC) 中華電比較無聊啦，就是沒有標的又有閒錢的時候可以放著
+17:55 王泰期(NCHC) 漢翔就是因為兩岸緊張，美國軍售
+17:55 王泰期(NCHC) 其實某部分來說我們是有內線的
+20:35 姜順貿(NCCU,NCHC) 沒有啊，事先沒有任何消息(sad)
+2020.09.01 星期二
+18:17 王泰期(NCHC) 圖片
+18:18 姜順貿(NCCU,NCHC) 捷克(frozen)(frozen)(oh no!)(oh no!)(oh no!)
+18:18 王泰期(NCHC) 對啊
+18:18 王泰期(NCHC) 主任要居家兩週
+18:18 姜順貿(NCCU,NCHC) 怕
+18:19 姜順貿(NCCU,NCHC) 我們應該要跟上(hahaha)(hahaha)
+18:50 姜順貿(NCCU,NCHC) 為什麼捷克要來國網啊
+18:52 王泰期(NCHC) 可能以為我們ai很厲害吧
+2020.09.02 星期三
+08:54 余佑駿（little fish） 我好像沒收到這封信XD~
+所以是說今天三點以後到下班，最好都是直接電梯到地下室囉?
+08:56 王泰期(NCHC) 對的
+08:56 余佑駿（little fish） OKOK~
+08:56 王泰期(NCHC) 捷克團要來參訪，需要大規模消毒
+08:56 王泰期(NCHC) 他們的路線也不要經過比較好
+08:56 王泰期(NCHC) 我今天出差所以好像沒差
+08:56 姜順貿(NCCU,NCHC) 有聽到同仁持反方意見，建議走樓梯，不要在密閉空間(emoji)
+08:57 余佑駿（little fish） 是不是不小心經過就要居家14天(我絕對沒有不小心的意圖XDD
+08:57 王泰期(NCHC) 喔喔走樓梯應該也可以
+08:57 王泰期(NCHC) 他們應該都是在一樓移動
+09:43 余佑駿（little fish） 學長~今天有空幫我簽一下08/31的假單，我被靜文寄信通知XD~
+09:51 王泰期(NCHC) 喔好沒注意到
+09:51 余佑駿（little fish） (其實我不知道他們為什麼這麼急
+09:52 王泰期(NCHC) 應該是系統有問題
+09:52 王泰期(NCHC) 記得會通知的
+09:53 余佑駿（little fish） 其實我收到系統通知信我就直接忽略
+但是今天又收到靜文直接寄信給我，所以我才打過去問~
+
+15:24 余佑駿（little fish） 最近有社交信，開信箱小心
+15:24 余佑駿（little fish） (感覺像社交信啦
+15:58 王泰期(NCHC) 鈊象蠻厲害
+15:58 王泰期(NCHC) 去湯姆熊可以注意一下
+15:58 姜順貿(NCCU,NCHC) ???
+16:07 余佑駿（little fish） 看起來轉型得很成功
+16:12 余佑駿（little fish） 他們接下來要推VR街機對不對~ 看產值覺得大有可為~
+16:17 姜順貿(NCCU,NCHC) 貼圖
