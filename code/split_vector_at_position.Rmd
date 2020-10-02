@@ -63,7 +63,7 @@ splitAt2(x = a, pos = c(2, 4))
 
 ## solution03
 
-將solution02改寫，易讀懂，但是會慢一點。
+將 solution02 改寫，易讀懂，速度和 solution02 差不多。
 
 ```{r}
 splitAt3 <- function(x, pos) {
@@ -142,7 +142,7 @@ tm
 
 設定 times = 100，結果如下，  
 
-solution speed: 2 = 3 = 4 > 5 = 6 > 7
+solution speed: 2 = 3 = 4 > 5 = 6 > 1
 
 ---
 

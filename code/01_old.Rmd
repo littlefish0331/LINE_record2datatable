@@ -1,0 +1,174 @@
+---
+title: "01_rawdata_process_phone"
+author: "Steve, Yu"
+date: "2020/5/11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+rm(list = ls()); gc()
+library(dplyr)
+library(data.table)
+library(lubridate)
+library(knitr)
+opts_chunk$set(echo = TRUE)
+```
+
+# 讀取資料
+
+```{r}
+raw <- readLines("../data/phone/[LINE] NCHC Data Analysis的聊天.txt", encoding = "UTF-8")
+raw %>% head
+```
+
+---
+
+# 擷取匯出的標頭
+
+```{r}
+chat_filename <- chat_rawdata[1]
+chat_filenbackuptime <- chat_rawdata[2]
+chat_user <- chat_rawdata %>% head(200) %>% 
+  gsub("[^\\t]*\\t(.*)\\t.*", "\\1", .) %>% 
+  table %>% sort(., decreasing = T) %>% 
+  head(2) %>% names()
+
+chat_tmp01 <- chat_rawdata[-c(1:3)]
+```
+
+## 資料清理01: 補齊\t
+
+正確格式: 時間`\t`使用者名稱`\t`內容，但有時候會少掉第二個`\t`，所以要補上。
+
+```{r}
+# 缺少\t，補上\t
+pp1 <- paste0("([0-9]{2}\\t", chat_user[1], ")")
+rr1 <- paste0("\\1\t")
+pp2 <- paste0("([0-9]{2}\\t", chat_user[2], ")")
+rr2 <- paste0("\\1\t")
+
+chat_tmp01 <- chat_tmp01 %>% gsub(pp1, rr1, .)
+chat_tmp01 <- chat_tmp01 %>% gsub(pp2, rr2, .)
+```
+
+## 資料清理02 chat_tmp02: 同一個訊息框的資訊合併
+
+採用刪去法，抓出「""」、「^[0-9]{4}/[0-9]{2}/[0-9]{2}」、「^(上午|下午)[0-9]{2}」
+
+```{r}
+chat_tmp01 <- chat_tmp01[chat_tmp01!=""]
+t1 <- chat_tmp01 %>% grepl("^[0-9]{4}/[0-9]{2}/[0-9]{2}（", .)
+t2 <- chat_tmp01 %>% grepl("^(上午|下午)[0-9]{2}.[0-9]{2}", .)
+t3 <- ifelse((t1 + t2)>0, 1L, 0L)
+
+# ---
+chat_tmp02 <- data.table(raw = chat_tmp01)
+chat_tmp02[, `:=`(tmp02_group = cumsum(t3))]
+
+# ---
+chat_tmp02 <- chat_tmp02[, .(raw_paste = paste(raw, collapse = "\n")), 
+                         by = .(tmp02_group)][, raw_paste]
+chat_tmp02 %>% head
+```
+
+## 資料清理03 chat_tmp03: 把每一天的訊息，放入list中
+
+用「^[0-9]{4}/[0-9]{2}/[0-9]{2}（」抓出index，斷出每一天的訊息。
+
+```{r}
+splitAt <- function(x, pos){
+  pos <- c(1L, pos, length(x) + 1L) %>% unique()
+  Map(function(x, i, j) x[i:j], list(x), head(pos, -1L), tail(pos, -1L) - 1L)
+}
+
+pos <- chat_tmp02 %>% grepl("^[0-9]{4}/[0-9]{2}/[0-9]{2}（", .) %>% which()
+chat_tmp03 <- splitAt(x = chat_tmp02, pos = pos)
+```
+
+## 資料清理04: 對每一個list()執行
+
+- 第一筆就是每一天的日期。  
+- 新增欄位 t_date = 每一天的日期。變成 [t_date, rawdata]。
+
+```{r}
+record <<- NULL
+movedatetohead <- function(rawdata){
+  # 檢查開頭的第一筆是不是都是日期
+  # record <<- rawdata[1] %>% grepl("[0-9]{4}/[0-9]{2}/[0-9]{2}.*", .) %>% c(record, .)
+  res <- data.table(t_date = rawdata[1], rawdata = rawdata[-1])
+  return(res)
+}
+
+chat_tmp04 <- chat_tmp03 %>%  lapply(., movedatetohead) %>% rbindlist()
+# record %>% table()
+```
+
+## 資料清理05 chat_tmp05: 移除收回訊息的動作紀錄。因為不知道是誰收回，無法從上傳者做判斷。
+
+- 關鍵字: 「您已收回訊息」、「You unsent a message.」
+- 因為使用者名稱在收回訊息時，會和聊天時的名稱不同，所以才無法清理。
+- 會少`\t`，所以先移除。這些存放在chat_unsend
+
+```{r}
+rm_chat_idx01 <- chat_tmp04$rawdata %>% grepl("unsent", .) %>% which()
+rm_chat_idx02 <- chat_tmp04$rawdata %>% grepl("已收回訊息", .) %>% which()
+chat_unsend <- chat_tmp04[c(rm_chat_idx01, rm_chat_idx02), ]
+chat_tmp05 <- chat_tmp04[-c(rm_chat_idx01, rm_chat_idx02), ]
+```
+
+## 資料清理06 chat_tmp06: 移除有關相簿的動作紀錄。
+
+- 關鍵字: 「changed the name of the album」、「刪除了.*相簿內的照片」、「已將相簿名稱由.*改為」
+- 因為使用者名稱在刪除相簿照片或是更改相簿名稱時，會和聊天時的名稱不同，所以才無法清理。
+- 會少\t，所以先移除。這些存放在chat_albumaction_rename_rm
+  
+```{r}
+rm_chat_idx01 <- chat_tmp05$rawdata %>% 
+  grepl("changed the name of the album", .) %>% which()
+rm_chat_idx02 <- chat_tmp05$rawdata %>% 
+  grepl("刪除了.*相簿內的照片", .) %>% which()
+rm_chat_idx03 <- chat_tmp05$rawdata %>% 
+  grepl("已將相簿名稱由.*改為", .) %>% which()
+chat_albumaction_rename_rm <- chat_tmp05[c(rm_chat_idx01, rm_chat_idx02, rm_chat_idx03), ]
+chat_tmp06 <- chat_tmp05[-c(rm_chat_idx01, rm_chat_idx02, rm_chat_idx03), ]
+```
+
+
+
+
+
+
+
+
+
+## 資料清理07: 切開資料by\t，分成 [t_date, t_time, user, context]
+
+```{r}
+# t1 <- chat_tmp06$rawdata %>% gregexpr("\\t", .) %>% lengths
+library(rematch2)
+pp1 <- "(?<t_time>(上午|下午)[0-9]{2}:[0-9]{2})\\t(?<user>[^\\t]*)\\t(?<content>[^\\\\]*)"
+pp1 <- "(?<t_time>(上午|下午)[0-9]{2}:[0-9]{2})\\t(?<user>[^\\t]*)\\t(?<content>.*)"
+tmp <- re_match(chat_tmp06$rawdata, pattern = pp1)
+tmp[7,] %>% View()
+
+t1 <- (tmp$.text==tmp$.match)
+t1 %>% table
+t2 <- which(t1==FALSE)
+tmp[t2, ] %>% View()
+chat_tmp06$rawdata[t2] %>% View()
+
+
+pp2 <- "(下午|上午)[0-9]{2}:[0-9]{2}\\t[^\\t]*\\t"
+chat_tmp06$rawdata[7] %>% gsub(pp2, "-", .)
+re_match(text = dates, pattern = isodaten)
+
+t1 %>% table
+```
+
+
+
+
+---
+
+# END
+
