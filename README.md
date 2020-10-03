@@ -56,9 +56,9 @@
 
 ### 電腦匯出對話紀錄方式
 
-![steps_pc01](./backup_chat_step/steps_pc01.png)
+![steps_pc01](./image/steps_pc01.png)
 
-![steps_pc02](./backup_chat_step/steps_pc02.png)
+![steps_pc02](./image/steps_pc02.png)
 
 step0. 點選想匯出的聊天室  
 step1. 點選右上角，開啟選單  
@@ -70,7 +70,7 @@ step4. 選擇要匯出聊天紀錄的位置。
 
 ### 手機匯出對話紀錄方式
 
-![steps_phone](./backup_chat_step/steps_phone.png)
+![steps_phone](./image/steps_phone.png)
 
 step0. 點選想匯出的聊天室  
 step1. 點選右上角，開啟選單  

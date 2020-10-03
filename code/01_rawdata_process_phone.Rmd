@@ -154,7 +154,7 @@ tmp02 <- tmp01[-idx.plain_line]
 
 --
 
-## \t格式填補01
+## `\t`格式填補01
 
 - FSI, PDI 符號清理 <U+2068>, <U+2069>。
 - 多個連續重複 \t 清理為一個。
@@ -204,7 +204,7 @@ tmp03 <- data.table(raw_context = tmp02,
 
 --
 
-## \t格式填補02
+## `\t`格式填補02
 
 而訊息中有時會因為排版，出現多次 \t，  
 經過上面的清理後，保留前兩個，刪除後續出現的 \t，改用空白取代。
@@ -285,6 +285,8 @@ tmp[idx.daily_begin+1] <- tmp03$combine_context[idx.daily_begin] %>%
   gsub(".*(一|二|三|四|五|六|日).*", "\\1", .)
 tmp03[, `:=`(weekday = tmp)]
 ```
+
+locf: Last Observation Carried Forward
 
 ```{r}
 tmp04 <- tmp03[-idx.daily_begin, !"group_line"]
@@ -378,7 +380,14 @@ rm(list = setdiff(ls(), lsf.str()))
 invisible(gc())
 ```
 
-[How can I match emoji with an R regex? - Stack Overflow](https://stackoverflow.com/questions/43359066/how-can-i-match-emoji-with-an-r-regex): 有三種方法，推薦第三種。我自己有整理一個第四種在 code/。
+- [How can I match emoji with an R regex? - Stack Overflow](https://stackoverflow.com/questions/43359066/how-can-i-match-emoji-with-an-r-regex): 有三種方法，推薦第三種。我自己有整理一個第四種在 code/。
+
+**R detect unicode, R detect emoji:**
+
+- [r - Automatically escape unicode characters - Stack Overflow](https://stackoverflow.com/questions/25308913/automatically-escape-unicode-characters?rq=1)
+- [string - Unable to detect a unicode in R - Stack Overflow](https://stackoverflow.com/questions/52834658/unable-to-detect-a-unicode-in-r)
+- [How can I match emoji with an R regex? - Stack Overflow](https://stackoverflow.com/questions/43359066/how-can-i-match-emoji-with-an-r-regex)
+
 
 讀取資料。
 
@@ -442,3 +451,5 @@ context_extract <- data.table(iid = split_col$iid,
 
 # END
 
+
+[r - Creating a named list from two vectors (names, values) - Stack Overflow](https://stackoverflow.com/questions/17842705/creating-a-named-list-from-two-vectors-names-values)
