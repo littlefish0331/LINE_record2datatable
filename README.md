@@ -31,7 +31,9 @@
   - 模組打包成 API 供人使用
   - R 寫成套件
   - Python 寫成模組
-- 場景擴充到不止LINE的對話紀錄，比如 messenger, telegram, discord。
+- 場景擴充
+  - 不止LINE的對話紀錄，比如 messenger, telegram, discord。
+  - 系統英文語系的清理。
 
 ---
 
@@ -133,11 +135,17 @@ schema: <時間>	<用戶>	<訊息>
 ````
 
 收錄一些特殊情況，或是不同的訊息格式。  
-"已收回訊息"的動作會沒有分隔符號。  
+"已收回訊息"的動作會沒有分隔符號，且如果是自己收回，LINE會顯示「您已收回訊息」。  
 
 ```{txt}
 格式: <上午/下午HH:MM>	<LINE名稱已收回訊息>
-舉例: 下午05:05	余佑駿（little fish）已收回訊息
+舉例01: 下午05:05	余佑駿（little fish）已收回訊息
+
+格式: <上午/下午HH:MM>	<您已收回訊息>
+舉例02: 下午05:34	您已收回訊息
+
+系統英文語系格式: <上午/下午HH:MM>	<You unsent a message.>
+舉例03: 下午01:28	You unsent a message.
 ```
 
 - 對話紀錄
@@ -251,17 +259,17 @@ PK = iid = all(date + timestamp + user + context)。
 - context_extract.csv
   - 訊息流水序號 iid(PK)。
   - 行數 rows。
-  - 有無網址 url: 1/0。
-  - 是否貼圖 sticker: 1/0。
-  - 是否照片 image: 1/0。
-  - 是否影片 video: 1/0。
-  - 是否檔案 file: 1/0。
-  - 是否語音 voice: 1/0。
-  - 是否記事本 note: 1/0。
-  - 是否相簿 album: 1/0。
-  - 是否視訊 video_chat: 1/0。
-  - 有無表情符號 emoji: 1/0。
-  - 是否接聽(語音或視訊) pickup。
+  - 有無網址 is_url: 1/0。
+  - 是否貼圖 is_sticker: 1/0。
+  - 是否照片 is_image: 1/0。
+  - 是否影片 is_video: 1/0。
+  - 是否檔案 is_file: 1/0。
+  - 是否語音 is_voice: 1/0。
+  - 是否記事本 is_note: 1/0。
+  - 是否建立相簿 is_album: 1/0。
+  - 是否視訊 is_video_chat: 1/0。
+  - 有無表情符號 is_emoji: 1/0。
+  - 是否無接聽(語音或視訊) is_pickup。
   - 通話時間 voice_video_length。
 
 ---
