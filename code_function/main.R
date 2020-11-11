@@ -76,5 +76,11 @@ chat_record["context_extract"] <- chat_record$split_col %>%
 
 # ---
 chat_record %>% names()
-
+chat_record$filename
+chat_record$raw_context %>% head
+chat_record$msg_format_err %>% head
+chat_record$split_col %>% View()
+chat_record$daily_summary_user %>% View()
+chat_record$daily_summary_total %>% View()
+chat_record$context_extract %>% View()
 
